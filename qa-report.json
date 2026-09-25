@@ -9,14 +9,14 @@
   "expected_slug": "aga-welding-fabrication",
   "passed": false,
   "grade": "F",
-  "score_pct": 95,
+  "score_pct": 96,
   "summary": {
-    "total": 299,
-    "passed": 269,
-    "failed": 23,
+    "total": 298,
+    "passed": 271,
+    "failed": 20,
     "warn": 7,
-    "blockers_failed": 3,
-    "warnings_failed": 22
+    "blockers_failed": 1,
+    "warnings_failed": 21
   },
   "techniques_detected": [
     {
@@ -2065,7 +2065,7 @@
     {
       "status": "pass",
       "check": "llms-full.txt content",
-      "detail": "171 lines",
+      "detail": "424 lines",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -2232,17 +2232,6 @@
       "check": "Image resolution",
       "detail": "welded-steel-stands-480.webp is 480x360, recommend at least 800x500 for section",
       "file": "assets/images/welded-steel-stands-480.webp",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
-      "section": "IMAGES"
-    },
-    {
-      "status": "fail",
-      "check": "Image resolution",
-      "detail": "metal-cutting-bandsaw-480.webp is 480x360, recommend at least 800x500 for section",
-      "file": "assets/images/metal-cutting-bandsaw-480.webp",
       "severity": "warning",
       "expected": null,
       "actual": null,
@@ -2998,14 +2987,14 @@
       "section": "AEO CONTENT"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "Hero answer word count",
-      "detail": "74 words (expected 35-70)",
+      "detail": "48 words",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Adjust .hero-answer paragraph to 35-70 words",
+      "fix_hint": "",
       "section": "AEO CONTENT"
     },
     {
@@ -3042,9 +3031,9 @@
       "section": "PERFORMANCE"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "No remote-hotlinked images",
-      "detail": "1 remote image ref(s) in 1 file(s) (e.g. https://pageonepartner.com/badge/<?php echo $ppSlug; ?>.svg) \u2014 download to /assets/images/, generate -480/-960/-1600 webp variants, rewrite src/srcset/url() to local paths",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -3154,7 +3143,7 @@
     {
       "status": "fail",
       "check": "Hero image \u2264150KB",
-      "detail": "metal-cutting-bandsaw.jpg: 195KB (largest image (no hero-named file); budget 150KB)",
+      "detail": "structural-steel-beams.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -3319,7 +3308,7 @@
     {
       "status": "pass",
       "check": "Lighthouse mobile Performance \u226590",
-      "detail": "95 (runs [84, 95, 97]) \u2014 LCP 2.2s \u00b7 CLS 0.079 \u00b7 TBT 126ms \u00b7 251KB",
+      "detail": "94 (runs [93, 94, 95]) \u2014 LCP 2.2s \u00b7 CLS 0.108 \u00b7 TBT 23ms \u00b7 251KB",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -3400,17 +3389,6 @@
       "check": "Image resolution",
       "detail": "welded-steel-stands-480.webp is 480x360, recommend at least 800x500 for section",
       "file": "assets/images/welded-steel-stands-480.webp",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
-      "section": "IMAGES"
-    },
-    {
-      "status": "fail",
-      "check": "Image resolution",
-      "detail": "metal-cutting-bandsaw-480.webp is 480x360, recommend at least 800x500 for section",
-      "file": "assets/images/metal-cutting-bandsaw-480.webp",
       "severity": "warning",
       "expected": null,
       "actual": null,
@@ -3573,30 +3551,8 @@
     },
     {
       "status": "fail",
-      "check": "Hero answer word count",
-      "detail": "74 words (expected 35-70)",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Adjust .hero-answer paragraph to 35-70 words",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "fail",
-      "check": "No remote-hotlinked images",
-      "detail": "1 remote image ref(s) in 1 file(s) (e.g. https://pageonepartner.com/badge/<?php echo $ppSlug; ?>.svg) \u2014 download to /assets/images/, generate -480/-960/-1600 webp variants, rewrite src/srcset/url() to local paths",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PERFORMANCE v6.2"
-    },
-    {
-      "status": "fail",
       "check": "Hero image \u2264150KB",
-      "detail": "metal-cutting-bandsaw.jpg: 195KB (largest image (no hero-named file); budget 150KB)",
+      "detail": "structural-steel-beams.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
       "file": "",
       "severity": "blocker",
       "expected": null,
