@@ -125,7 +125,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-text">
         <span class="eyebrow">San Antonio, TX &middot; Since 1983</span>
         <h1 class="hero-title">Metal Fabrication &amp; <span class="text-accent">Welding</span> Built to Last in San Antonio</h1>
-        <p class="hero-answer">AGA Welding &amp; Fabrication delivers precision structural steel, custom metalwork, and certified welding across San Antonio &mdash; from one-off repairs to full industrial builds, done right and on time.</p>
+        <p class="hero-answer">AGA Welding &amp; Fabrication delivers precision structural steel fabrication, custom metalwork, and certified MIG, TIG, and stick welding across San Antonio and surrounding areas. Whether you need a one-off repair, handrails for a commercial property, or a complete industrial steel package, our experienced team brings 43 years of proven craftsmanship and technical expertise to every project. From design consultation through final installation, we deliver quality results done right, on time, and built to last.</p>
 
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get my free estimate</button>

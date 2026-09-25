@@ -78,8 +78,14 @@
   --fs-h1: clamp(1.9rem, 1.15rem + 2.1vw, 2.65rem);
   --fs-h2: clamp(1.55rem, 1rem + 1.5vw, 2.1rem);
   --fs-h3: clamp(1.1rem, .95rem + .5vw, 1.3rem);
+  --fs-h4: 1.1rem;
+  --fs-h5: 1rem;
   --fs-lead: clamp(1.05rem, .95rem + .35vw, 1.2rem);
-  --fs-body: 1rem; --fs-small: .875rem; --fs-eyebrow: .78rem;
+  --fs-body: 1rem;
+  --fs-small: .875rem;
+  --fs-eyebrow: .78rem;
+  --fs-lg: 1.125rem;
+  --fs-sm: .875rem;
   --font-size-xs: .75rem; --font-size-sm: .875rem; --font-size-base: 1rem; --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem; --font-size-2xl: var(--fs-h3); --font-size-3xl: var(--fs-h2); --font-size-4xl: var(--fs-h1);
   --font-size-5xl: var(--fs-h1); --font-size-6xl: var(--fs-h1);

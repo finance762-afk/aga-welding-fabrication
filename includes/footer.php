@@ -145,9 +145,6 @@
     </div>
   </div>
 
-  <!-- Partner Badge (v6.3 - 2026-09-17) -->
-  <?php include __DIR__ . '/partner-badge.php'; ?>
-
 </footer>
 
 <!-- Back to Top Button -->

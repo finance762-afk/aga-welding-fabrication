@@ -11,9 +11,9 @@
 $slug            = 'aga-welding-fabrication';               // exact build directory name
 $siteName        = 'AGA Welding & Fabrication';
 $tagline         = 'Where Precision Meets Steel';
-$phone           = '';                                      // not supplied at intake
+$phone           = '(210) 648-2088';
 $phoneSecondary  = '';
-$email           = '';                                      // not supplied at intake
+$email           = 'contact@agawelding.com';
 
 $address = [
     'street' => '8249 Gardner Rd',
@@ -224,6 +224,12 @@ $geo = [
     'lng' => -98.3296381,
 ];
 $gbpPlaceId = '';
+
+/* ---------------------------------------------------------------------------
+ * Partner Profile (Page One Partner badge)
+ * ------------------------------------------------------------------------- */
+$partnerProfileSlug = '';  // Set to actual slug when profile is claimed
+$partnerProfileName = '';  // Set to business name when profile is claimed
 
 /* ---------------------------------------------------------------------------
  * Lead attribution (v6.3) — MUST be last. Sets first-touch cookie and
