@@ -204,7 +204,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why does San Antonio trust AGA for <span class="text-accent">metal repair</span>?</h2>
         <p class="answer-block">AGA Welding &amp; Fabrication has repaired steel in San Antonio since 1983, backing every fix with a full fabrication shop and certified welders. That means repairs that address why the metal failed, replacement parts built when patching won&rsquo;t do, and mobile welding brought to your site to cut downtime.</p>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Honest repair-or-replace calls.</strong> We inspect the damage first and tell you straight whether a repair will hold or the piece needs rebuilding.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('flame', 22); ?><span><strong>Certified welders on every repair.</strong> Cracks and breaks are reinforced and rewelded by welders certified in the process the material needs.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Mobile welding when you can&rsquo;t come to us.</strong> We repair on-site across San Antonio for equipment and structures too costly to move.</span></li>

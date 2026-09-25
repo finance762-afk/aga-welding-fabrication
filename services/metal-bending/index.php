@@ -204,7 +204,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why does San Antonio trust AGA to <span class="text-accent">bend and form steel</span>?</h2>
         <p class="answer-block">AGA Welding &amp; Fabrication has formed metal in San Antonio since 1983, running press-brake and roll-bending equipment in-house with certified hands. That means calibrated bends checked against your drawing, forming that feeds straight into welding, and formed steel delivered ready to install across Bexar County.</p>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Calibrated equipment, in-house.</strong> Press-brake and roll-bending machines are set and checked against your drawing before the first piece is formed.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>Forming ties straight into fabrication.</strong> A bent bracket or curved section moves right into welding and assembly on the same Gardner Rd floor.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered ready to install.</strong> We finish the formed steel and deliver to your San Antonio site, or run mobile welding for on-site fitting.</span></li>

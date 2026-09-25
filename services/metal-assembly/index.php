@@ -204,7 +204,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why does San Antonio trust AGA to <span class="text-accent">assemble multi-part steel</span>?</h2>
         <p class="answer-block">AGA Welding &amp; Fabrication has assembled steel in San Antonio since 1983, using certified fitters, jigs, and fixtures to hold every build square. That means components checked for fit before welding, load-bearing joints laid by certified hands, and finished assemblies delivered or set on your site.</p>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Dry-fit before final weld.</strong> Every assembly is squared and tack-welded first, so dimensional issues get caught before a joint is permanent.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>Jigs for repeat runs.</strong> Multi-unit orders get a fixture built first, keeping every stand or skid interchangeable with the next.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>One shop, no hand-offs.</strong> Cutting, forming, and assembly happen on the same Gardner Rd floor, then we deliver to your San Antonio site.</span></li>

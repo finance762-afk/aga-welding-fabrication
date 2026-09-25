@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why do San Antonio builders trust AGA for <span class="text-accent">custom steel staircases</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders, in-house.</strong> Every stringer weld is laid by a certified welder using the right procedure for the load the stair carries &mdash; no subcontracted structural welds.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>One shop, every step.</strong> Cutting, forming, welding, assembly, and finishing all happen on Gardner Rd, so your staircase arrives as one tight, code-ready assembly.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered ready to set.</strong> We finish and prep your staircase for coating or install, then deliver to your San Antonio site &mdash; or bring a mobile welding crew for on-site fit-up.</span></li>

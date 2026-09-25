@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why do San Antonio builders trust AGA with <span class="text-accent">structural steel</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders on every joint.</strong> The welds an inspector checks are laid in-house by certified welders using the procedure the connection calls for &mdash; never subcontracted out.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('ruler', 22); ?><span><strong>Fabricated to fit the field.</strong> We build straight off your stamped drawings and square every member, so it bolts into place on your San Antonio site without cutting or shimming.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered on your erection date.</strong> We schedule fabrication around your pour or crane date and bring mobile welding for connections that need to be finished on site.</span></li>

@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why bring your <span class="text-accent">custom metalwork</span> idea to AGA?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('pen-tool', 22); ?><span><strong>Design help included.</strong> We refine a sketch, photo, or verbal idea into a buildable design with you before any steel is cut.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders on every joint.</strong> Decorative or structural, each weld is laid and finished by a certified welder in our San Antonio shop.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered ready to install.</strong> We finish, prime, or paint your piece and deliver it to your San Antonio address ready to hang or set.</span></li>

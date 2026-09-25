@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why do San Antonio shops trust AGA for <span class="text-accent">metal cutting</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('ruler', 22); ?><span><strong>Measured before it&rsquo;s cut.</strong> We confirm dimensions and material grade against your cut list or drawing before the saw runs.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('scissors', 22); ?><span><strong>Consistent across the run.</strong> Whether it&rsquo;s one piece or a bulk order, every cut holds the same length and squareness.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Ready for the next step.</strong> Cut stock moves straight into our welding and fabrication process, or we deliver it to your San Antonio site as-is.</span></li>

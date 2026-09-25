@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why do San Antonio facilities trust AGA for <span class="text-accent">custom storage racks</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders, in-house.</strong> Every upright and load beam weld is laid by a certified welder using the right procedure for the steel grade and the load it carries.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>One shop, every step.</strong> Cutting, forming, welding, assembly, and finishing all happen on Gardner Rd, so your racking system arrives as one consistent, load-rated build.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered ready to install.</strong> We finish and prep your racks for coating or install, then deliver to your San Antonio facility &mdash; or bring mobile welding for on-site assembly.</span></li>

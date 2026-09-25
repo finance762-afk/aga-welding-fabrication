@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why call AGA for <span class="text-accent">repairs and modifications</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('wrench', 22); ?><span><strong>Honest diagnosis first.</strong> We inspect the metal and tell you plainly whether it needs a repair, a modification, or replacement.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Shop or on-site.</strong> Mobile welding handles what can't move; our Gardner Rd shop handles pieces that can travel to us.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welds, every time.</strong> Repairs and modifications are welded by certified staff using the process the metal actually needs.</span></li>

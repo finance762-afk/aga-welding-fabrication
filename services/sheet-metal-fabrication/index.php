@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </div>
       <div class="reveal-right">
         <h2 style="margin-bottom:1rem;">Why do San Antonio clients choose AGA for <span class="text-accent">sheet metal</span>?</h2>
-        <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
+        <ul class="card" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('scissors', 22); ?><span><strong>Tight tolerances, every time.</strong> We measure and confirm dimensions before cutting so panels, brackets, and enclosures fit on the first try.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders finish every seam.</strong> Thin-gauge welding takes a different touch &mdash; our welders match the process to the metal so seams stay clean and sealed.</span></li>
           <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>One shop, start to finish.</strong> Cutting, bending, welding, and finishing happen on Gardner Rd, and we deliver ready-to-install parts across San Antonio.</span></li>
