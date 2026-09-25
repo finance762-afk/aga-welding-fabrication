@@ -3,5 +3,6 @@ Allow: /
 Disallow: /thank-you
 Disallow: /thank-you/
 Disallow: /includes/
+Disallow: /assets/js/
 
 Sitemap: https://aga-welding-fabrication.pageone.cloud/sitemap.xml
