@@ -1,0 +1,851 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 30,
+    "primary_keyword": "welding san antonio",
+    "secondary_keywords": [
+      "welding san antonio tx",
+      "metal fabrication san antonio",
+      "mig welding san antonio",
+      "tig welding san antonio",
+      "structural welding san antonio",
+      "pipe welding san antonio",
+      "custom metal fabrication san antonio",
+      "sheet metal fabrication san antonio",
+      "welding services near me",
+      "mobile welding san antonio",
+      "steel fabrication san antonio",
+      "handrails and railings san antonio"
+    ]
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [
+    {
+      "slug": "steel-fabrication",
+      "type": "service",
+      "title": "Steel Fabrication in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Steel Fabrication"
+      ],
+      "primary_keyword": "steel fabrication San Antonio TX"
+    },
+    {
+      "slug": "structural-steel-fabrication",
+      "type": "service",
+      "title": "Structural Steel Fabrication in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Structural Steel Fabrication"
+      ],
+      "primary_keyword": "structural steel fabrication San Antonio TX"
+    },
+    {
+      "slug": "sheet-metal-fabrication",
+      "type": "service",
+      "title": "Sheet Metal Fabrication in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Sheet Metal Fabrication"
+      ],
+      "primary_keyword": "sheet metal fabrication San Antonio TX"
+    },
+    {
+      "slug": "metal-cutting",
+      "type": "service",
+      "title": "Metal Cutting in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Metal Cutting"
+      ],
+      "primary_keyword": "metal cutting San Antonio TX"
+    },
+    {
+      "slug": "metal-bending",
+      "type": "service",
+      "title": "Metal Bending in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Metal Bending"
+      ],
+      "primary_keyword": "metal bending San Antonio TX"
+    },
+    {
+      "slug": "metal-assembly",
+      "type": "service",
+      "title": "Metal Assembly in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Metal Assembly"
+      ],
+      "primary_keyword": "metal assembly San Antonio TX"
+    },
+    {
+      "slug": "metal-repair",
+      "type": "service",
+      "title": "Metal Repair in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Metal Repair"
+      ],
+      "primary_keyword": "metal repair San Antonio TX"
+    },
+    {
+      "slug": "structural-metal-repair",
+      "type": "service",
+      "title": "Structural Metal Repair in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Structural Metal Repair"
+      ],
+      "primary_keyword": "structural metal repair San Antonio TX"
+    },
+    {
+      "slug": "equipment-metal-repair",
+      "type": "service",
+      "title": "Equipment Metal Repair in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Equipment Metal Repair"
+      ],
+      "primary_keyword": "equipment metal repair San Antonio TX"
+    },
+    {
+      "slug": "handrails-railings",
+      "type": "service",
+      "title": "Handrails & Railings in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Handrails & Railings"
+      ],
+      "primary_keyword": "handrails & railings San Antonio TX"
+    },
+    {
+      "slug": "staircases",
+      "type": "service",
+      "title": "Staircases in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Staircases"
+      ],
+      "primary_keyword": "staircases San Antonio TX"
+    },
+    {
+      "slug": "awnings",
+      "type": "service",
+      "title": "Awnings in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Awnings"
+      ],
+      "primary_keyword": "awnings San Antonio TX"
+    },
+    {
+      "slug": "racks-storage-solutions",
+      "type": "service",
+      "title": "Racks & Storage Solutions in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Racks & Storage Solutions"
+      ],
+      "primary_keyword": "racks & storage solutions San Antonio TX"
+    },
+    {
+      "slug": "custom-metalwork",
+      "type": "service",
+      "title": "Custom Metalwork in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Custom Metalwork"
+      ],
+      "primary_keyword": "custom metalwork San Antonio TX"
+    },
+    {
+      "slug": "general-repairs-modifications",
+      "type": "service",
+      "title": "General Repairs & Modifications in San Antonio, TX",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "General Repairs & Modifications"
+      ],
+      "primary_keyword": "general repairs & modifications San Antonio TX"
+    },
+    {
+      "slug": "additional-services",
+      "type": "service_group",
+      "title": "Additional Services in San Antonio, TX",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Pipe Welding",
+        "Stick Welding",
+        "MIG Welding",
+        "TIG Welding",
+        "Flux-Cored Welding",
+        "Structural Welding",
+        "Mobile Welding",
+        "Custom Metal Fabrication"
+      ],
+      "primary_keyword": "custom metal fabrication San Antonio TX"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/logo/1790373665334-azsmj1-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+      "storage_path": "aga-welding-fabrication/logo/1790373665334-azsmj1-Wardiere-Inc.--282-29-58dbe3a7-209w.webp"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/logo/1790373665334-azsmj1-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "aga-welding-fabrication/logo/1790373665334-azsmj1-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/logo/1790374301748-dhlubu-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "aga-welding-fabrication/logo/1790374301748-dhlubu-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374387830-l7fgeu-9-c8354e39-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374387830-l7fgeu-9-c8354e39-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374388568-o81z65-8-4bbc0eab-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374388568-o81z65-8-4bbc0eab-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374389461-izznga-7-6d194fdb-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374389461-izznga-7-6d194fdb-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374390358-65movj-6-ea59beb4-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374390358-65movj-6-ea59beb4-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374391492-spxg55-5-dcd81df8-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374391492-spxg55-5-dcd81df8-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374392408-6ltb11-4-6a282bf6-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374392408-6ltb11-4-6a282bf6-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374393268-smil3g-3-f0a29897-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374393268-smil3g-3-f0a29897-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374394328-jdle56-2-a3af1a19-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374394328-jdle56-2-a3af1a19-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374395178-x8ny3a-1-8ba6e0d2-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374395178-x8ny3a-1-8ba6e0d2-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374396118-5uaaga-13-bfd7ce1f-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374396118-5uaaga-13-bfd7ce1f-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374396998-pq5o16-12-21a9d65c-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374396998-pq5o16-12-21a9d65c-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374397858-5w2ztm-11-5a13cf66-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374397858-5w2ztm-11-5a13cf66-1920w.webp",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/photos/1790374398818-6yw1dp-10-ba611bc0-1920w.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "aga-welding-fabrication/photos/1790374398818-6yw1dp-10-ba611bc0-1920w.webp",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/aga-welding-fabrication/logo/1790373665334-azsmj1-Wardiere-Inc.--282-29-58dbe3a7-209w.webp",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {
+      "accent": "#E87518",
+      "primary": "#252525",
+      "secondary": "#66717A",
+      "extracted_from_logo": false
+    },
+    "logo_analysis": {}
+  },
+  "domain": "aga-welding-fabrication",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "78263",
+    "city": "San Antonio",
+    "state": "TX",
+    "street": " 8249 Gardner Rd"
+  },
+  "content": {
+    "usps": [],
+    "years": 43,
+    "insurance": "",
+    "description": "AGA Welding & Fabrication is a premier metal fabrication specialist serving San Antonio, Texas, with an unwavering commitment to excellence and superior craftsmanship. We provide comprehensive metal fabrication services designed to deliver precise, durable solutions that exceed expectations. From custom designs to large-scale industrial projects, our expertise and attention to detail ensure exceptional results at every stage.\n\nOur capabilities span custom metal and steel fabrication, structural steel work, precision welding, industrial welding solutions, and metal repairs. We specialize in MIG, TIG, stick, and flux-cored welding techniques, complemented by cutting, bending, and assembly services. Our experienced team works closely with clients to understand their unique requirements and deliver tailored solutions that combine technical precision with artistic craftsmanship.\n\nAt AGA Welding & Fabrication, we believe that superior quality and customer satisfaction are non-negotiable. Whether you require bespoke fabrication work or robust structural solutions, our seasoned artisans are dedicated to bringing your vision to life with the expertise and passion that define our craft.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Where Precision Meets Steel",
+  "industry": "other",
+  "services": [
+    {
+      "name": "MIG Welding",
+      "keywords": [
+        "MIG welding San Antonio",
+        "metal welding services",
+        "MIG welding TX",
+        "fabrication welding"
+      ],
+      "description": "Professional MIG welding services for efficient and precise metal joining. Ideal for general fabrication and production work in San Antonio."
+    },
+    {
+      "name": "TIG Welding",
+      "keywords": [
+        "TIG welding San Antonio",
+        "precision welding",
+        "TIG welding TX",
+        "stainless steel welding"
+      ],
+      "description": "Precision TIG welding for high-quality joints and detailed metalwork. Perfect for automotive and stainless steel applications in San Antonio."
+    },
+    {
+      "name": "Stick Welding",
+      "keywords": [
+        "stick welding San Antonio",
+        "arc welding services",
+        "structural welding TX",
+        "heavy-duty welding"
+      ],
+      "description": "Reliable stick welding services for structural and outdoor applications. Versatile solution for construction and industrial projects."
+    },
+    {
+      "name": "Flux-Cored Welding",
+      "keywords": [
+        "flux-cored welding San Antonio",
+        "structural welding",
+        "welding services TX",
+        "industrial fabrication"
+      ],
+      "description": "High-speed flux-cored welding for thick materials and structural work. Efficient solution for large-scale fabrication projects in San Antonio."
+    },
+    {
+      "name": "Pipe Welding",
+      "keywords": [
+        "pipe welding San Antonio",
+        "pipeline welding TX",
+        "industrial pipe services",
+        "pressure vessel welding"
+      ],
+      "description": "Expert pipe welding services for industrial and commercial applications. Certified techniques for pressure vessels and pipeline systems."
+    },
+    {
+      "name": "Structural Welding",
+      "keywords": [
+        "structural welding San Antonio",
+        "steel welding TX",
+        "construction welding",
+        "structural steel services"
+      ],
+      "description": "Structural steel welding for buildings, bridges, and infrastructure projects. Professional services meeting industry codes and standards."
+    },
+    {
+      "name": "Mobile Welding",
+      "keywords": [
+        "mobile welding San Antonio",
+        "onsite welding services",
+        "mobile welding TX",
+        "field welding services"
+      ],
+      "description": "On-site welding services brought directly to your location in San Antonio. Convenient solution for repairs and fabrication work anywhere."
+    },
+    {
+      "name": "Custom Metal Fabrication",
+      "keywords": [
+        "custom metal fabrication San Antonio",
+        "metal fabrication TX",
+        "custom fabrication services",
+        "bespoke metalwork"
+      ],
+      "description": "Tailored metal fabrication solutions for unique and specialized projects. From design to completion, we create custom metalwork for any application."
+    },
+    {
+      "name": "Steel Fabrication",
+      "keywords": [
+        "steel fabrication San Antonio",
+        "steel fabrication TX",
+        "metal fabrication services",
+        "industrial steel work"
+      ],
+      "description": "Comprehensive steel fabrication services for commercial and industrial needs. Precision cutting, forming, and assembly of steel components."
+    },
+    {
+      "name": "Structural Steel Fabrication",
+      "keywords": [
+        "structural steel fabrication San Antonio",
+        "steel fabrication TX",
+        "construction steel",
+        "industrial fabrication"
+      ],
+      "description": "Engineered structural steel fabrication for construction and heavy-duty applications. Built to specification and industry standards."
+    },
+    {
+      "name": "Sheet Metal Fabrication",
+      "keywords": [
+        "sheet metal fabrication San Antonio",
+        "sheet metal services TX",
+        "metal fabrication",
+        "precision metalwork"
+      ],
+      "description": "Precision sheet metal services including cutting, bending, and assembly. Solutions for HVAC, automotive, and industrial applications."
+    },
+    {
+      "name": "Metal Cutting",
+      "keywords": [
+        "metal cutting San Antonio",
+        "metal cutting services TX",
+        "precision cutting",
+        "steel cutting"
+      ],
+      "description": "Professional metal cutting services using modern equipment and techniques. Accurate cuts for any metal fabrication project."
+    },
+    {
+      "name": "Metal Bending",
+      "keywords": [
+        "metal bending San Antonio",
+        "metal bending services TX",
+        "metal forming",
+        "custom bending"
+      ],
+      "description": "Expert metal bending and forming services for custom shapes and components. Precision work for structural and decorative applications."
+    },
+    {
+      "name": "Metal Assembly",
+      "keywords": [
+        "metal assembly San Antonio",
+        "assembly services TX",
+        "metal fabrication",
+        "component assembly"
+      ],
+      "description": "Professional metal assembly and component integration services. Skilled technicians for complex multi-part metal structures."
+    },
+    {
+      "name": "Metal Repair",
+      "keywords": [
+        "metal repair San Antonio",
+        "metal repair services TX",
+        "equipment repair",
+        "welding repair"
+      ],
+      "description": "Comprehensive metal repair services restoring damaged equipment and structures. Expert solutions for welding, patching, and reinforcement."
+    },
+    {
+      "name": "Structural Metal Repair",
+      "keywords": [
+        "structural metal repair San Antonio",
+        "structural repair TX",
+        "metal repair services",
+        "reinforcement services"
+      ],
+      "description": "Professional repair of structural metal components and frameworks. Certified techniques ensuring safety and longevity."
+    },
+    {
+      "name": "Equipment Metal Repair",
+      "keywords": [
+        "equipment metal repair San Antonio",
+        "equipment repair TX",
+        "industrial equipment repair",
+        "metal restoration"
+      ],
+      "description": "Expert repair services for industrial and commercial metal equipment. Minimizing downtime with efficient restoration solutions."
+    },
+    {
+      "name": "Handrails & Railings",
+      "keywords": [
+        "handrails railings San Antonio",
+        "custom railings TX",
+        "stair railings",
+        "safety railings"
+      ],
+      "description": "Custom-designed and fabricated handrails and railings for safety and aesthetics. Professional installation for residential and commercial properties."
+    },
+    {
+      "name": "Staircases",
+      "keywords": [
+        "metal staircases San Antonio",
+        "custom staircases TX",
+        "steel stairs",
+        "metal stair fabrication"
+      ],
+      "description": "Custom metal staircase design and fabrication for residential and commercial spaces. Durable and elegant solutions built to specification."
+    },
+    {
+      "name": "Awnings",
+      "keywords": [
+        "metal awnings San Antonio",
+        "custom awnings TX",
+        "commercial awnings",
+        "steel awnings"
+      ],
+      "description": "Custom metal awning fabrication and installation for businesses and homes. Durable protection with professional design and craftsmanship."
+    },
+    {
+      "name": "Racks & Storage Solutions",
+      "keywords": [
+        "metal racks San Antonio",
+        "storage racks TX",
+        "warehouse racks",
+        "custom racks"
+      ],
+      "description": "Custom-designed metal racks and storage systems for warehouses and facilities. Efficient organization with heavy-duty construction."
+    },
+    {
+      "name": "Custom Metalwork",
+      "keywords": [
+        "custom metalwork San Antonio",
+        "metal craftsmanship TX",
+        "decorative metalwork",
+        "custom metal art"
+      ],
+      "description": "Artistic and functional custom metalwork for decorative and practical applications. Expert craftsmanship tailored to your vision."
+    },
+    {
+      "name": "General Repairs & Modifications",
+      "keywords": [
+        "metal repairs modifications San Antonio",
+        "repair services TX",
+        "equipment modifications",
+        "metal restoration"
+      ],
+      "description": "Versatile repair and modification services for metal structures and equipment. Professional solutions for customization and restoration."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "aga-welding-fabrication",
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/aga-welding-fabrication",
+  "github_repo": "",
+  "web_sources": [],
+  "company_name": "aga-welding-fabrication",
+  "integrations": {
+    "geo": {
+      "lat": 29.340730399999998,
+      "lng": -98.3296381
+    },
+    "bbb_url": null,
+    "financing": null,
+    "accepts_sms": false,
+    "gbp_place_id": null,
+    "gbp_map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4035.0339425584243!2d-98.3296381!3d29.340730399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cfaa0315f293d%3A0xe28a79947e84152e!2sAGA%20Welding%20%26%20Fabrication!5e1!3m2!1sen!2sph!4v1790374677302!5m2!1sen!2sph\" loading=\"lazy\" allowfullscreen referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "directions_url": null,
+    "elfsight_embed": null,
+    "scheduling_url": null,
+    "review_request_url": null,
+    "certification_links": []
+  },
+  "service_areas": [
+    {
+      "zip": "78263",
+      "city": "",
+      "state": "TX",
+      "primary": true
+    }
+  ],
+  "address_public": true,
+  "business_hours": "",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "We provide structural steel work, custom welding, metal stairs and railings, gates, fencing, industrial components, and specialized fabrication. We work with various metals and handle projects of any scale.",
+          "q": "What metal fabrication services do you offer?"
+        },
+        {
+          "a": "Timeline depends on scope and complexity. We prioritize efficiency without compromising quality and can discuss realistic timelines during consultation. Rush services available for urgent needs.",
+          "q": "How fast can you turn around a project?"
+        },
+        {
+          "a": "We do both. Our team can consult on your concept and bring ideas to life, or execute from your existing blueprints and specifications.",
+          "q": "Do you work from existing designs or offer design help?"
+        },
+        {
+          "a": "All welders are certified professionals. We maintain rigorous quality control standards and stand behind our work with a commitment to durability and precision.",
+          "q": "Are your welders certified and what quality guarantees do you provide?"
+        },
+        {
+          "a": "We serve commercial, industrial, and residential customers throughout San Antonio. Whether it's a residential gate or a large industrial project, we have the expertise to deliver.",
+          "q": "Do you serve residential clients or just commercial and industrial?"
+        }
+      ],
+      "about_angle": "Lead with hands-on expertise and deep San Antonio roots. Emphasize the problem-solving mindset, certified craftsmanship, and ability to handle everything from small custom projects to large industrial jobs. Position as the local partner who understands the region's industrial needs and delivers on time, every time.",
+      "hero_headline": "Expert Metal Fabrication & Welding for San Antonio",
+      "differentiators": [
+        "Local San Antonio expertise with fast turnaround and site accessibility for commercial and industrial clients",
+        "Certified welders with proven quality assurance and precision execution on complex projects",
+        "Full-service capability from design consultation through installation and ongoing support",
+        "Versatility across industries: construction, manufacturing, automotive, commercial, and residential",
+        "Custom metal fabrication approach—solving unique problems rather than one-size-fits-all solutions"
+      ],
+      "hero_subheadline": "Precision-crafted solutions from design to installation—trusted by local businesses for quality and reliability",
+      "tone_recommendation": "Professional yet approachable—demonstrate technical authority and reliability while remaining accessible. Use clear language that speaks to both business decision-makers and homeowners without unnecessary jargon. Convey trustworthiness through specifics about process and quality."
+    },
+    "competitors": [],
+    "generated_at": "2026-09-25T22:19:08.508Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "Steel Fabrication",
+        "solo": true,
+        "services": [
+          "Steel Fabrication"
+        ]
+      },
+      {
+        "page": "Structural Steel Fabrication",
+        "solo": true,
+        "services": [
+          "Structural Steel Fabrication"
+        ]
+      },
+      {
+        "page": "Sheet Metal Fabrication",
+        "solo": true,
+        "services": [
+          "Sheet Metal Fabrication"
+        ]
+      },
+      {
+        "page": "Metal Cutting",
+        "solo": true,
+        "services": [
+          "Metal Cutting"
+        ]
+      },
+      {
+        "page": "Metal Bending",
+        "solo": true,
+        "services": [
+          "Metal Bending"
+        ]
+      },
+      {
+        "page": "Metal Assembly",
+        "solo": true,
+        "services": [
+          "Metal Assembly"
+        ]
+      },
+      {
+        "page": "Metal Repair",
+        "solo": true,
+        "services": [
+          "Metal Repair"
+        ]
+      },
+      {
+        "page": "Structural Metal Repair",
+        "solo": true,
+        "services": [
+          "Structural Metal Repair"
+        ]
+      },
+      {
+        "page": "Equipment Metal Repair",
+        "solo": true,
+        "services": [
+          "Equipment Metal Repair"
+        ]
+      },
+      {
+        "page": "Handrails & Railings",
+        "solo": true,
+        "services": [
+          "Handrails & Railings"
+        ]
+      },
+      {
+        "page": "Staircases",
+        "solo": true,
+        "services": [
+          "Staircases"
+        ]
+      },
+      {
+        "page": "Awnings",
+        "solo": true,
+        "services": [
+          "Awnings"
+        ]
+      },
+      {
+        "page": "Racks & Storage Solutions",
+        "solo": true,
+        "services": [
+          "Racks & Storage Solutions"
+        ]
+      },
+      {
+        "page": "Custom Metalwork",
+        "solo": true,
+        "services": [
+          "Custom Metalwork"
+        ]
+      },
+      {
+        "page": "General Repairs & Modifications",
+        "solo": true,
+        "services": [
+          "General Repairs & Modifications"
+        ]
+      },
+      {
+        "page": "Additional Services",
+        "services": [
+          "Pipe Welding",
+          "Stick Welding",
+          "MIG Welding",
+          "TIG Welding",
+          "Flux-Cored Welding",
+          "Structural Welding",
+          "Mobile Welding",
+          "Custom Metal Fabrication"
+        ]
+      }
+    ],
+    "grouped_count": 16,
+    "original_count": 23
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
