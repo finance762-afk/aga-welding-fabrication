@@ -169,6 +169,80 @@
   </a>
 </div>
 
+<!-- Estimate Dialog (site-wide; opened by any [data-open-estimate] button) -->
+<dialog class="estimate-dialog" id="estimate-dialog" aria-labelledby="estimate-dialog-title">
+  <div class="dialog-head">
+    <div>
+      <h3 id="estimate-dialog-title">Get a free estimate</h3>
+      <p class="footnote">We reply the same day.</p>
+    </div>
+    <button type="button" class="dialog-close" aria-label="Close" data-close-estimate>
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+  <div class="dialog-body">
+    <form action="<?php echo htmlspecialchars($formAction); ?>" method="POST">
+      <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_next" value="<?php echo htmlspecialchars($siteUrl); ?>/thank-you">
+      <?php echo p1_attribution_fields('dialog'); ?>
+      <input type="hidden" name="consent_version" value="v2.1">
+      <input type="hidden" name="consent_page" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?>">
+
+      <div class="form-grid">
+        <div class="field">
+          <label for="dlg-name">Your Name</label>
+          <input id="dlg-name" type="text" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="dlg-phone">Phone</label>
+          <input id="dlg-phone" type="tel" name="phone" autocomplete="tel" required>
+        </div>
+        <div class="field full">
+          <label for="dlg-email">Email</label>
+          <input id="dlg-email" type="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field full">
+          <label for="dlg-service">Service Needed</label>
+          <select id="dlg-service" name="service">
+            <option value="">Select a service</option>
+            <?php foreach ($services as $dlgSvc): ?>
+            <option value="<?php echo htmlspecialchars($dlgSvc['name']); ?>"><?php echo htmlspecialchars($dlgSvc['name']); ?></option>
+            <?php endforeach; ?>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="dlg-message">Project Details</label>
+          <textarea id="dlg-message" name="message" rows="3" placeholder="Metal, size, quantity, drawings, deadline…"></textarea>
+        </div>
+      </div>
+
+      <fieldset class="form-consent-fieldset">
+        <legend class="form-consent-legend">Communication Consent</legend>
+        <label class="form-consent-item consent">
+          <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
+          <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo htmlspecialchars($siteName); ?> about my inquiry. I can unsubscribe anytime.</span>
+        </label>
+        <label class="form-consent-item consent">
+          <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">
+          <span class="consent-label"><strong>SMS/Text messages (optional):</strong> I agree to receive texts from <?php echo htmlspecialchars($siteName); ?> at the number provided. Message and data rates may apply. Reply STOP to unsubscribe. <strong>Consent is not a condition of purchase.</strong></span>
+        </label>
+        <label class="form-consent-item consent form-consent-required">
+          <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required>
+          <span class="consent-label">I have read and agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms/">Terms of Service</a>. <span class="required-star">*</span></span>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary btn-block">Send my request</button>
+    </form>
+  </div>
+</dialog>
+
+<!-- Cookie Consent Bar (slim; revealed after first scroll, remembered via localStorage) -->
+<div class="cookie-bar" id="cookie-bar" role="region" aria-label="Cookie notice">
+  <p>We use cookies to run this site and understand traffic. See our <a href="/cookie-policy/">Cookie Policy</a>.</p>
+  <button type="button">Got it</button>
+</div>
+
 <!-- Scripts (all with defer per v6.3) -->
 <script src="/assets/js/main.js" defer></script>
 <script src="/assets/js/animations.js" defer></script>
