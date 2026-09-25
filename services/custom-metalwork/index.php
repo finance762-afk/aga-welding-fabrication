@@ -15,7 +15,7 @@ $svc = null;
 foreach ($services as $s) { if ($s['slug'] === $serviceSlug) { $svc = $s; break; } }
 
 $pageTitle       = 'Custom Metalwork San Antonio, TX | ' . $siteName;
-$pageDescription = 'Custom metalwork in San Antonio, TX. AGA Welding & Fabrication builds gates, panels, and signage from your sketch, photo, or idea. Free estimates.';
+$pageDescription = 'Custom metalwork built to your vision in San Antonio, TX. AGA Welding & Fabrication designs and fabricates gates, railings, signage, and one-off steel pieces in-house. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/custom-metalwork/';
 $ogImage         = $siteUrl . '/assets/images/structural-steel-frame.jpg';
 
@@ -28,28 +28,28 @@ $heroPreload = [
 
 /* Recent-work photos for this service (real shop photos) */
 $spGallery = [
-    ['img' => 'custom-metal-pipe-support', 'cap' => 'Custom steel piece finished and painted in the AGA shop'],
-    ['img' => 'custom-steel-fabrication',  'cap' => 'One-off custom metalwork taking shape on the shop floor'],
-    ['img' => 'welded-steel-stands',       'cap' => 'Custom welded steel fabrication built to a client design'],
+    ['img' => 'custom-metal-pipe-support', 'cap' => 'Custom-built steel pipe support, finish-painted and ready for delivery'],
+    ['img' => 'custom-steel-fabrication',  'cap' => 'Custom steel assembly taking shape on the AGA shop floor in San Antonio'],
+    ['img' => 'welded-steel-stands',       'cap' => 'Welded steel A-frame stands built to a one-off design'],
 ];
 
 /* FAQs — unique to custom metalwork in San Antonio */
 $faqs = [
     [
-        'q' => 'How much does custom metalwork cost in San Antonio?',
-        'a' => 'AGA Welding & Fabrication prices custom metalwork by material, complexity, and finish, so a small decorative bracket costs far less than a full custom gate. We review your sketch or idea and give you a clear estimate before any steel is cut.',
+        'q' => 'Can AGA build a custom metal piece from just a sketch or idea?',
+        'a' => 'Yes. AGA Welding & Fabrication regularly works from a napkin sketch, a photo of something you liked, or a verbal description. Our San Antonio shop develops the dimensions and construction details with you before any steel is cut, so the finished piece matches your vision.',
     ],
     [
-        'q' => 'Do I need a finished design before I contact AGA?',
-        'a' => 'No. A rough sketch, a photo of something you like, or just a description of what you need is enough to start. AGA Welding & Fabrication helps develop the design into a buildable steel piece as part of the quote process.',
+        'q' => 'What kinds of custom metalwork do you build?',
+        'a' => 'AGA Welding & Fabrication fabricates custom gates, decorative railings, signage frames, art pieces, brackets, and one-off architectural features for San Antonio homes and businesses. If it starts as raw steel and needs a design eye, our shop can build it.',
     ],
     [
-        'q' => 'Can you match an existing gate, railing, or decorative piece?',
-        'a' => "Yes. Our certified welders can replicate an existing design's style, pattern, and finish, or build a complementary piece that ties into what's already there \xe2\x80\x94 useful when you're extending a fence line or matching a set of railings.",
+        'q' => 'How much does a custom metalwork project cost?',
+        'a' => 'Pricing depends on the design, material, and finish you choose, so a small decorative bracket costs far less than a large custom gate. AGA Welding & Fabrication reviews your idea or drawing and provides a clear, itemized estimate before starting any San Antonio project.',
     ],
     [
-        'q' => 'Do you build custom metalwork for both homes and businesses?',
-        'a' => 'Yes. AGA Welding & Fabrication builds custom steel for San Antonio homeowners and commercial clients alike \xe2\x80\x94 decorative gates and railings for residential properties, and signage, brackets, and fixtures for storefronts and facilities.',
+        'q' => 'Do you finish and paint custom metalwork pieces?',
+        'a' => 'Yes. AGA Welding & Fabrication grinds and finishes every weld, then preps and paints or primes the piece to your specification. We can also leave raw steel unfinished if you plan a specialty coating, so your San Antonio piece arrives exactly how you want it.',
     ],
 ];
 
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <img src="/assets/images/<?php echo $heroImg; ?>.jpg"
            srcset="/assets/images/<?php echo $heroImg; ?>-480.webp 480w, /assets/images/<?php echo $heroImg; ?>-960.webp 960w, /assets/images/<?php echo $heroImg; ?>-1600.webp 1600w"
            sizes="100vw"
-           alt="Custom geometric steel metalwork fabricated by AGA Welding & Fabrication in San Antonio"
+           alt="Geometric steel dome framework fabricated in-house by AGA Welding & Fabrication in San Antonio, TX"
            width="1600" height="1199" loading="eager" fetchpriority="high" decoding="async">
     </picture>
   </div>
@@ -93,8 +93,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="hero-text">
         <span class="eyebrow">Custom Metalwork &middot; San Antonio, TX</span>
-        <h1 class="hero-title">Custom Metalwork Built From Your <span class="text-accent">Idea</span> in San Antonio</h1>
-        <p class="hero-answer">AGA Welding &amp; Fabrication designs and builds one-of-a-kind steel pieces for San Antonio homes and businesses &mdash; decorative gates, signage, furniture frames, and brackets &mdash; starting from your sketch or a rough idea and carrying it through fabrication, welding, and finish in our Gardner Rd shop.</p>
+        <h1 class="hero-title">Custom Metalwork Built for <span class="text-accent">San Antonio</span></h1>
+        <p class="hero-answer">AGA Welding &amp; Fabrication designs and fabricates one-off gates, railings, signage, and decorative or functional steel pieces for San Antonio homes and businesses &mdash; taking your idea from concept sketch to a finished, painted piece in our own shop.</p>
 
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get my free estimate</button>
@@ -102,8 +102,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
 
         <ul class="hero-chips">
-          <li><?php echo icon('pen-tool', 18); ?> Design consult included</li>
-          <li><?php echo icon('hammer', 18); ?> One-off &amp; custom builds</li>
+          <li><?php echo icon('pen-tool', 18); ?> Built from your concept</li>
+          <li><?php echo icon('hammer', 18); ?> Fabricated in-house</li>
           <li><?php echo icon('badge-check', 18); ?> Certified welders</li>
         </ul>
       </div>
@@ -150,15 +150,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">What We Do</span>
-      <h2>What does <span class="text-accent">custom metalwork in San Antonio</span> actually include?</h2>
+      <h2>What does <span class="text-accent">custom metalwork in San Antonio</span> actually involve?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication turns your sketch, photo reference, or rough idea into a finished steel piece built specifically for your space &mdash; decorative gates, panels, signage, or furniture frames. We handle design consultation, fabrication, welding, and finish work in one San Antonio shop, so nothing gets lost between drawing and steel.</p>
+    <p class="answer-block">Custom metalwork is one-off metal fabrication built to a design rather than pulled off a shelf &mdash; gates, railings, signage, art, and architectural features shaped to your exact idea. AGA Welding &amp; Fabrication designs, cuts, welds, and finishes every piece in our San Antonio shop, so what you imagined is what arrives.</p>
 
     <div class="grid-asymmetric" style="margin-top:2rem; display:grid; gap:2rem;">
       <div class="prose reveal-up">
-        <p>Since 1983, AGA Welding &amp; Fabrication has been the family-run shop San Antonio homeowners, designers, and business owners call when a project can&rsquo;t be solved with a catalog part. Maybe it&rsquo;s a gate that has to match a specific gap in an entry wall, a decorative panel sized to a single window, or a sign bracket shaped to a logo &mdash; projects with no off-the-shelf answer. We start with a conversation about what you&rsquo;re picturing, then translate that into a workable steel design before any metal is cut.</p>
-        <p>Our certified welders bring the piece to life using MIG, TIG, stick, and flux-cored processes, chosen for the metal, the joint, and the look you want &mdash; clean flush welds for a modern gate, heavier beads for a rustic railing bracket. Because the same shop that designs the piece also cuts, welds, and finishes it, changes mid-project are easy to make instead of another round of vendor calls.</p>
-        <p>Everything is fabricated at our Gardner Rd shop in southeast San Antonio, then delivered and installed, or we bring mobile welding on-site for pieces that have to be built or finished in place. Whether it&rsquo;s a single decorative bracket or a full custom staircase railing, the same certified welders see it from first sketch to final coat.</p>
+        <p>San Antonio property owners come to AGA Welding &amp; Fabrication with a concept rather than a spec sheet &mdash; a gate design pulled from a photo, a sign frame sketched on paper, or a decorative feature that needs to match an existing style. We sit down with you, confirm dimensions and materials, and turn that idea into a buildable design before cutting any steel.</p>
+        <p>Our certified welders shape carbon steel, stainless, and aluminum using MIG, TIG, stick, and flux-cored processes, matching technique to the look and durability the piece needs. Decorative scrollwork gets the same attention as structural brackets, and every weld is ground and finished so the final piece reads as intentional, not improvised.</p>
+        <p>Because design, fabrication, and finishing all happen on Gardner Rd, we can adjust a detail mid-build without waiting on an outside vendor. That flexibility is what makes a genuinely custom piece possible for San Antonio clients on a realistic timeline.</p>
       </div>
     </div>
   </div>
@@ -169,25 +169,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Know the Signs</span>
-      <h2>When do you need <span class="text-accent">custom metalwork</span> instead of a stock part?</h2>
+      <h2>When does a project call for <span class="text-accent">custom metalwork</span> instead of a catalog part?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication builds custom metalwork when a stock gate, panel, or bracket won&rsquo;t fit your space, match your style, or hold up to the job. Here are the situations San Antonio clients bring us most when nothing off the shelf will do.</p>
+    <p class="answer-block">Reach for custom metalwork when a catalog piece almost fits but not quite, when the design has to match something that already exists, or when nothing on the market matches the look you want. AGA Welding &amp; Fabrication hears these reasons most from San Antonio clients.</p>
 
     <div class="grid-3" style="display:grid; gap:1rem; grid-template-columns:repeat(3,1fr); margin-top:1.5rem;">
       <div class="card reveal-up">
-        <div class="service-card__icon"><?php echo icon('pencil-ruler', 22); ?></div>
-        <h3>There&rsquo;s no catalog match</h3>
-        <p>Your gap, opening, or design idea doesn&rsquo;t match anything sold pre-made &mdash; it needs to be drawn and built to the exact space.</p>
+        <div class="service-card__icon"><?php echo icon('pen-tool', 22); ?></div>
+        <h3>You have a specific look in mind</h3>
+        <p>A style, pattern, or finish you saw elsewhere can be built from scratch rather than approximated with stock parts.</p>
       </div>
       <div class="card reveal-up reveal-delay-1">
-        <div class="service-card__icon"><?php echo icon('home', 22); ?></div>
-        <h3>It has to match your home or brand</h3>
-        <p>A gate, railing, or sign needs a specific look, finish, or shape that a stock part simply can&rsquo;t deliver.</p>
+        <div class="service-card__icon"><?php echo icon('ruler', 22); ?></div>
+        <h3>It has to match an odd opening</h3>
+        <p>Non-standard gate widths, angled railings, or irregular openings need a piece built to that exact measurement.</p>
       </div>
       <div class="card reveal-up reveal-delay-2">
-        <div class="service-card__icon"><?php echo icon('layers', 22); ?></div>
-        <h3>You want it built to last</h3>
-        <p>A one-off piece still needs real welds and the right steel grade &mdash; not a bolt-together kit that won&rsquo;t hold up outdoors.</p>
+        <div class="service-card__icon"><?php echo icon('award', 22); ?></div>
+        <h3>Appearance matters as much as function</h3>
+        <p>Entryways, signage, and visible architectural features need clean welds and a finish that holds up to close inspection.</p>
       </div>
     </div>
   </div>
@@ -199,14 +199,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="split" style="display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,5vw,4rem); align-items:center;">
       <div class="reveal-left">
         <span class="big-number">43</span>
-        <p class="lead" style="margin-top:.5rem;">years building custom steel in San Antonio &mdash; a family-run shop turning one-of-a-kind ideas into finished metalwork since 1983.</p>
+        <p class="lead" style="margin-top:.5rem;">years shaping steel in San Antonio &mdash; a family-run shop building one-off metalwork for local homes and businesses since 1983.</p>
       </div>
       <div class="reveal-right">
-        <h2 style="margin-bottom:1rem;">Why do San Antonio clients trust AGA with <span class="text-accent">custom metalwork</span>?</h2>
+        <h2 style="margin-bottom:1rem;">Why bring your <span class="text-accent">custom metalwork</span> idea to AGA?</h2>
         <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders shape every piece.</strong> Every custom weld is laid by a certified welder using the process suited to the metal and the finish you want &mdash; not a generic default.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('pen-tool', 22); ?><span><strong>Design help without extra fees.</strong> We help translate your sketch or reference photo into a buildable steel design before fabrication starts, all as part of the quote.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered or built on-site.</strong> We deliver finished pieces ready to install, or bring mobile welding to your San Antonio property for site-built work.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('pen-tool', 22); ?><span><strong>Design help included.</strong> We refine a sketch, photo, or verbal idea into a buildable design with you before any steel is cut.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders on every joint.</strong> Decorative or structural, each weld is laid and finished by a certified welder in our San Antonio shop.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Delivered ready to install.</strong> We finish, prime, or paint your piece and deliver it to your San Antonio address ready to hang or set.</span></li>
         </ul>
       </div>
     </div>
@@ -218,57 +218,57 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">How It Works</span>
-      <h2>How does AGA build a <span class="text-accent">custom metalwork</span> piece from your idea?</h2>
+      <h2>How does AGA turn an idea into <span class="text-accent">finished metalwork</span>?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication turns a concept into finished steel in four steps: design consult, material and detail selection, fabrication and welding, then finish and delivery. You approve the design before we cut any steel, so the final piece matches what you pictured.</p>
+    <p class="answer-block">AGA Welding &amp; Fabrication follows a four-step process on every custom piece in San Antonio: design consult, material and finish selection, build, then finish and deliver. You approve the design before we cut, so there are no surprises at pickup.</p>
 
     <ol class="process-steps reveal-up" style="margin-top:1.5rem;">
       <li>
         <b>Design consult</b>
-        <span>Share your sketch, photo, or idea and we&rsquo;ll shape it into a workable steel design and a clear estimate.</span>
+        <span>We talk through your idea, sketch, or reference photo and confirm dimensions before drawing up a buildable design.</span>
       </li>
       <li>
-        <b>Material &amp; detail selection</b>
-        <span>We choose the steel grade, gauge, and finish that fit the look and the location &mdash; indoor, outdoor, structural, or purely decorative.</span>
+        <b>Material &amp; finish selection</b>
+        <span>We choose the steel, stainless, or aluminum and the finish &mdash; painted, primed, or raw &mdash; that fits how the piece will be used.</span>
       </li>
       <li>
-        <b>Fabricate &amp; weld</b>
-        <span>Certified welders cut, form, and join the piece in-house using the process suited to the metal and the joint.</span>
+        <b>Build</b>
+        <span>Certified welders cut, form, and join the piece in-house, checking fit and proportion against your approved design as we go.</span>
       </li>
       <li>
         <b>Finish &amp; deliver</b>
-        <span>We grind, finish, and prep for paint or coating, then deliver to your San Antonio address or install on-site.</span>
+        <span>We grind every weld smooth, apply the chosen finish, and deliver the completed piece to your San Antonio address.</span>
       </li>
     </ol>
   </div>
 </section>
 
 <!-- ============================ COMPARISON ============================ -->
-<section class="section" aria-label="AGA compared to other metalwork shops">
+<section class="section" aria-label="AGA compared to catalog metalwork">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">The Difference</span>
-      <h2>What&rsquo;s different about ordering <span class="text-accent">custom metalwork</span> from AGA?</h2>
+      <h2>Why choose custom metalwork over a <span class="text-accent">catalog part</span>?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication keeps your custom piece under one roof from first sketch to delivery, instead of passing your idea between a designer, a welder, and an installer. That single point of accountability is what most San Antonio shops can&rsquo;t offer.</p>
+    <p class="answer-block">A catalog part is built for the average opening; custom metalwork is built for yours. AGA Welding &amp; Fabrication designs to your exact space and style, while a stock piece forces you to adjust the opening, the look, or both to fit what's available.</p>
 
     <div class="grid-2" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1.5rem;">
-      <div class="card card-tint-3 reveal-left">
-        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('badge-check', 22); ?> AGA Welding &amp; Fabrication</h3>
+      <div class="card card-tint-1 reveal-left">
+        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('badge-check', 22); ?> AGA custom metalwork</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Design consult included in the estimate</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Certified welders build the piece in-house</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> One shop from sketch to finished steel</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Delivery or on-site mobile welding available</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Built to your exact dimensions</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Design matched to your style</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Finish and color chosen by you</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Adjustments made before delivery</li>
         </ul>
       </div>
       <div class="card reveal-right">
-        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Typical alternative</h3>
+        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Off-the-shelf catalog part</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Design and fabrication split across vendors</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Welds subcontracted with no direct oversight</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Multiple hand-offs before the piece is finished</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> You manage delivery and site coordination yourself</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Fixed sizes, gaps or trimming needed</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Generic look, limited styles</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Stock finish only</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> No changes once it ships</li>
         </ul>
       </div>
     </div>
@@ -280,9 +280,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Recent Work</span>
-      <h2>What <span class="text-accent">custom metalwork</span> has AGA finished recently?</h2>
+      <h2>What custom pieces has AGA <span class="text-accent">recently built</span>?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication recently completed a run of one-off steel pieces out of our San Antonio shop, each one built from a client&rsquo;s sketch, photo, or rough idea. Every piece shown below was designed, welded, and finished in-house by our certified welders before delivery.</p>
+    <p class="answer-block">Recent custom metalwork out of our San Antonio shop &mdash; a finish-painted pipe support, a one-off steel assembly, and welded A-frame stands built to a specific design. Every piece below was designed and fabricated in-house by AGA Welding &amp; Fabrication.</p>
 
     <div class="sp-gallery-grid" data-p1-dynamic style="margin-top:1.5rem;">
       <?php foreach ($spGallery as $g): $gi = $g['img']; ?>
@@ -307,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">FAQ</span>
-      <h2>Got questions about <span class="text-accent">custom metalwork in San Antonio</span>?</h2>
+      <h2>What do clients ask about <span class="text-accent">custom metalwork in San Antonio</span>?</h2>
     </div>
     <div class="faq-grid">
       <?php foreach ($faqs as $fi => $faq): ?>
@@ -325,7 +325,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container-wide">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">More From AGA</span>
-      <h2>What other <span class="text-accent">metalwork services</span> might complement this project?</h2>
+      <h2>What other <span class="text-accent">fabrication services</span> pair with custom metalwork?</h2>
     </div>
     <div class="services-grid" style="grid-template-columns:repeat(3,1fr);">
       <?php
@@ -353,8 +353,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div>
       <span class="eyebrow-label">Free Estimate</span>
-      <h2>Ready to bring your custom metalwork idea to life in San Antonio?</h2>
-      <p>Send AGA Welding &amp; Fabrication your sketch, photo, or idea and we&rsquo;ll follow up the same day with a clear estimate. Rush service is available when your deadline can&rsquo;t wait.</p>
+      <h2>Ready to build your custom metalwork piece in San Antonio?</h2>
+      <p>Send AGA Welding &amp; Fabrication your idea, sketch, or reference photo and we&rsquo;ll follow up the same day with a clear, itemized estimate. Rush service is available when your deadline can&rsquo;t wait.</p>
     </div>
     <div class="actions">
       <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get a free estimate</button>

@@ -307,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">FAQ</span>
-      <h2>Common questions about <span class="text-accent">steel fabrication in San Antonio</span></h2>
+      <h2>What do San Antonio clients ask about <span class="text-accent">steel fabrication</span>?</h2>
     </div>
     <div class="faq-grid">
       <?php foreach ($faqs as $fi => $faq): ?>

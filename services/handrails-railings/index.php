@@ -15,41 +15,41 @@ $svc = null;
 foreach ($services as $s) { if ($s['slug'] === $serviceSlug) { $svc = $s; break; } }
 
 $pageTitle       = 'Handrails & Railings San Antonio, TX | ' . $siteName;
-$pageDescription = 'Custom handrails and railings in San Antonio, TX. AGA Welding & Fabrication welds code-compliant guardrails for homes and businesses. Free estimates.';
+$pageDescription = 'Custom steel handrails and railings in San Antonio, TX. AGA Welding & Fabrication builds code-compliant stair, ramp, and balcony rails, welded solid for homes and businesses. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/handrails-railings/';
-$ogImage         = $siteUrl . '/assets/images/custom-steel-fabrication.jpg';
+$ogImage         = $siteUrl . '/assets/images/custom-metal-pipe-support.jpg';
 
 /* Hero image + LCP preload (v6.3) */
-$heroImg = 'custom-steel-fabrication';
+$heroImg = 'custom-metal-pipe-support';
 $heroPreload = [
     'srcset' => '/assets/images/' . $heroImg . '-480.avif 480w, /assets/images/' . $heroImg . '-960.avif 960w, /assets/images/' . $heroImg . '-1600.avif 1600w',
     'sizes'  => '100vw',
 ];
 
-/* Recent-work photos for this service (real shop photos) */
+/* Recent-work photos — general shop fabrication, NOT finished railings (honest captions) */
 $spGallery = [
-    ['img' => 'structural-steel-frame', 'cap' => 'A geometric steel framework fabricated in-house ahead of railing install'],
-    ['img' => 'welded-steel-stands',    'cap' => 'Welded steel A-frame stands built to support a railing run'],
-    ['img' => 'custom-metal-pipe-support', 'cap' => 'A custom-built, finish-painted steel support matched to a railing job'],
+    ['img' => 'welded-steel-stands',      'cap' => 'Welded steel stands fabricated at the AGA San Antonio shop'],
+    ['img' => 'custom-steel-fabrication', 'cap' => 'Custom steel fabrication in progress at the AGA Welding & Fabrication shop'],
+    ['img' => 'structural-steel-frame',   'cap' => 'Welded steel frame work at the AGA shop in San Antonio'],
 ];
 
-/* FAQs — unique to handrails and railings in San Antonio */
+/* FAQs — unique to handrails & railings in San Antonio */
 $faqs = [
     [
-        'q' => 'What height and spacing do handrails need to meet code in San Antonio?',
-        'a' => 'Residential guardrails generally need to be at least 36 inches tall with balusters spaced so a 4-inch sphere cannot pass through, while commercial stair rails typically run 42 inches with different spacing rules. AGA Welding & Fabrication confirms the exact requirement for your property type before fabricating so the finished railing passes inspection.',
+        'q' => 'How much do custom handrails and railings cost in San Antonio?',
+        'a' => 'Railing cost depends on the length, the style, the number of posts, and the mounting surface. AGA Welding & Fabrication measures your stair, ramp, or balcony in San Antonio first, then gives a clear, itemized estimate — a fabricated steel rail costs more than a kit but fits right and lasts far longer.',
     ],
     [
-        'q' => 'Can you match a railing to an existing style on my property?',
-        'a' => 'Yes. AGA Welding & Fabrication can replicate baluster spacing, rail profile, and finish to extend an existing run, or design something new if you are starting from scratch. We confirm the match with a shop drawing before fabrication so there are no surprises on installation day.',
+        'q' => 'How long does a custom railing take to build and install?',
+        'a' => 'Most residential railings are fabricated and installed by AGA Welding & Fabrication within one to two weeks of measuring, depending on length and finish. Larger commercial guardrail runs take longer. We set a realistic schedule at the measure and confirm install timing before fabrication starts on your San Antonio job.',
     ],
     [
-        'q' => 'Do you install the railings or just fabricate them?',
-        'a' => 'AGA Welding & Fabrication both fabricates and installs handrails and guardrails for San Antonio homes and businesses. We measure the site, weld the railing to spec in our shop, then install and secure it in place so it is inspection-ready the day we leave.',
+        'q' => 'Are your railings built to code-compliant heights?',
+        'a' => 'Yes. AGA Welding & Fabrication builds handrails and guardrails to the code-compliant heights required for your San Antonio stair, ramp, or landing, whether residential or commercial. We confirm the required height and graspable handrail dimensions at the measure so the finished railing passes inspection and functions safely in a fall.',
     ],
     [
-        'q' => 'How long does a custom railing project take from quote to installation?',
-        'a' => 'A straightforward residential handrail often moves from measurement to installation within one to two weeks; larger commercial guardrail runs take longer depending on length and finish. AGA Welding & Fabrication gives you a firm schedule once the site measurement and design are confirmed.',
+        'q' => 'Do you make railings for both homes and businesses?',
+        'a' => 'Yes. AGA Welding & Fabrication fabricates residential railings for porches, entries, and interior stairs, plus commercial and industrial guardrails for ramps, mezzanines, and loading areas across San Antonio. Every rail is welded steel, built to the setting, and prepped for the paint or coating finish your property needs.',
     ],
 ];
 
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <img src="/assets/images/<?php echo $heroImg; ?>.jpg"
            srcset="/assets/images/<?php echo $heroImg; ?>-480.webp 480w, /assets/images/<?php echo $heroImg; ?>-960.webp 960w, /assets/images/<?php echo $heroImg; ?>-1600.webp 1600w"
            sizes="100vw"
-           alt="Custom steel assembly taking shape on the AGA Welding & Fabrication shop floor in San Antonio, TX ahead of a railing install"
+           alt="Custom fabricated steel pipe support built at the AGA Welding & Fabrication shop in San Antonio, TX"
            width="1600" height="1199" loading="eager" fetchpriority="high" decoding="async">
     </picture>
   </div>
@@ -93,8 +93,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="hero-text">
         <span class="eyebrow">Handrails &amp; Railings &middot; San Antonio, TX</span>
-        <h1 class="hero-title">Custom Handrails &amp; Railings Welded for <span class="text-accent">San Antonio</span></h1>
-        <p class="hero-answer">AGA Welding &amp; Fabrication designs, welds, and installs code-compliant handrails and guardrails for San Antonio homes and businesses &mdash; interior or exterior, matched to your property and built to pass inspection.</p>
+        <h1 class="hero-title">Handrails &amp; Railings in <span class="text-accent">San Antonio</span>, Welded to Code</h1>
+        <p class="hero-answer">AGA Welding &amp; Fabrication custom-fabricates steel handrails and railings for San Antonio homes and businesses &mdash; stair rails, ramp rails, balcony guardrails, and code-compliant barriers. Our certified welders build each railing to your measurements, weld it solid, and finish it clean so it adds safety and looks right on your property.</p>
 
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get my free estimate</button>
@@ -102,9 +102,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
 
         <ul class="hero-chips">
-          <li><?php echo icon('shield-check', 18); ?> Licensed &amp; insured</li>
-          <li><?php echo icon('fence', 18); ?> Residential &amp; commercial</li>
-          <li><?php echo icon('badge-check', 18); ?> Code-compliant welds</li>
+          <li><?php echo icon('shield-check', 18); ?> Family-run since 1983</li>
+          <li><?php echo icon('layers', 18); ?> Stair, ramp &amp; balcony rails</li>
+          <li><?php echo icon('badge-check', 18); ?> Certified welders</li>
         </ul>
       </div>
 
@@ -152,42 +152,42 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <span class="eyebrow-label">What We Do</span>
       <h2>What goes into <span class="text-accent">custom handrails and railings in San Antonio</span>?</h2>
     </div>
-    <p class="answer-block">Custom handrails and railings are measured, designed, welded, and installed to fit your exact stairs, porch, balcony, or walkway &mdash; not pulled off a shelf. AGA Welding &amp; Fabrication builds each railing from steel or aluminum to meet code height and baluster spacing while matching the look of your San Antonio property.</p>
+    <p class="answer-block">Custom handrails and railings are steel guards fabricated to fit a specific stair, ramp, balcony, or landing and welded to hold real force. AGA Welding &amp; Fabrication measures the opening, builds the railing to code-compliant heights in our San Antonio shop, and installs it solid so it protects people and finishes the space cleanly.</p>
 
     <div class="grid-asymmetric" style="margin-top:2rem; display:grid; gap:2rem;">
       <div class="prose reveal-up">
-        <p>Stock railings rarely fit a real staircase or an uneven grade the way San Antonio properties actually need &mdash; steps vary, landings sit at odd angles, and older homes and buildings were not built to a single standard. AGA Welding &amp; Fabrication measures your site directly and designs the railing to fit it, not the other way around.</p>
-        <p>Our certified welders fabricate the rail, posts, and balusters in-house, checking height and spacing against code for your property type before a single piece is cut. Whether you want a clean, simple guardrail or a more detailed design, everything is welded and ground smooth at our shop on Gardner Rd.</p>
-        <p>Once fabricated, we install the railing on-site and secure it to your stairs, deck, or landing, leaving it inspection-ready. Residential porches, commercial stairwells, and everything between are within scope across San Antonio and Bexar County.</p>
+        <p>For four decades, AGA Welding &amp; Fabrication has built steel railings for San Antonio stairways, porches, ramps, mezzanines, and rooftop landings &mdash; the kind of guard that has to stop a fall, meet code, and still look intentional. We measure on site, confirm the mounting surface, and fabricate each rail to the exact rise, run, and height your project calls for.</p>
+        <p>Our certified welders work in steel pipe, square tube, and bar stock, joining posts, rails, and pickets with MIG, TIG, stick, and flux-cored welds, then grinding every joint smooth. Whether you want a plain shop-grade guardrail for a warehouse or a cleaner rail for a home entry, the railing is built to take a firm push and hold its line for years.</p>
+        <p>Because AGA fabricates in the shop on Gardner Rd and installs across San Antonio and Bexar County, one team handles measuring, welding, finishing, and mounting. That keeps heights consistent, anchors solid, and the finished railing prepped for coating or paint so it stands up to Texas weather and daily use.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============================ PROBLEM / SIGNS (bento) ============================ -->
-<section class="section section--light" aria-label="When you need custom handrails or railings">
+<section class="section section--light" aria-label="When you need a new railing">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Know the Signs</span>
-      <h2>When should you replace or add a <span class="text-accent">handrail</span>?</h2>
+      <h2>When do you need a <span class="text-accent">new or replacement railing</span> in San Antonio?</h2>
     </div>
-    <p class="answer-block">A railing is a safety feature first and a design feature second. AGA Welding &amp; Fabrication hears these three situations most often from San Antonio homeowners and property managers deciding it is time to call a fabricator.</p>
+    <p class="answer-block">You need a railing when a stair, ramp, balcony, or raised landing has an open edge, or when an existing rail is loose, rusted, or below code height. AGA Welding &amp; Fabrication fabricates and installs code-compliant steel railings across San Antonio, closing fall hazards and replacing failing rails with welded steel that holds.</p>
 
     <div class="grid-3" style="display:grid; gap:1rem; grid-template-columns:repeat(3,1fr); margin-top:1.5rem;">
       <div class="card reveal-up">
-        <div class="service-card__icon"><?php echo icon('fence', 22); ?></div>
-        <h3>The railing wobbles or has rusted through</h3>
-        <p>Loose posts or rust at the base mean the railing is no longer doing its job &mdash; and a fall risk that should not wait.</p>
+        <div class="service-card__icon"><?php echo icon('ruler', 22); ?></div>
+        <h3>An open stair, ramp, or edge</h3>
+        <p>Any stair, ramp, or raised landing without a guard is a fall hazard that code requires you to rail off.</p>
       </div>
       <div class="card reveal-up reveal-delay-1">
-        <div class="service-card__icon"><?php echo icon('footprints', 22); ?></div>
-        <h3>A stair or landing has no railing at all</h3>
-        <p>Many older San Antonio properties were built before current code required one &mdash; adding one closes an inspection gap.</p>
+        <div class="service-card__icon"><?php echo icon('layers', 22); ?></div>
+        <h3>A loose or wobbly existing rail</h3>
+        <p>A rail that shifts when you lean on it has failed at the welds or anchors and needs to be rebuilt or replaced.</p>
       </div>
       <div class="card reveal-up reveal-delay-2">
-        <div class="service-card__icon"><?php echo icon('ruler', 22); ?></div>
-        <h3>Baluster spacing fails a code inspection</h3>
-        <p>Wide gaps between balusters are a common inspection flag &mdash; a custom rebuild brings the spacing into compliance.</p>
+        <div class="service-card__icon"><?php echo icon('hammer', 22); ?></div>
+        <h3>Rusted or below-code railing</h3>
+        <p>Corroded steel or a rail below required height will not pass inspection and should be replaced with new welded steel.</p>
       </div>
     </div>
   </div>
@@ -199,14 +199,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="split" style="display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,5vw,4rem); align-items:center;">
       <div class="reveal-left">
         <span class="big-number">43</span>
-        <p class="lead" style="margin-top:.5rem;">years fabricating railings and custom metalwork for San Antonio homes and businesses &mdash; family-run since 1983.</p>
+        <p class="lead" style="margin-top:.5rem;">years fabricating steel railings and guards in San Antonio &mdash; a family-run shop building for local homes, builders, and businesses since 1983.</p>
       </div>
       <div class="reveal-right">
-        <h2 style="margin-bottom:1rem;">Why does San Antonio choose AGA for <span class="text-accent">handrails and railings</span>?</h2>
+        <h2 style="margin-bottom:1rem;">Why do San Antonio property owners choose AGA for <span class="text-accent">railings</span>?</h2>
+        <p class="answer-block">San Antonio homeowners, builders, and property managers choose AGA Welding &amp; Fabrication for railings because a guard is only as safe as its welds and anchors. Family-run since 1983, our certified welders build each rail to code-compliant heights, mount it solid, and finish it clean so it protects people and looks right.</p>
         <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('ruler', 22); ?><span><strong>Measured to your site, not a catalog.</strong> AGA Welding &amp; Fabrication builds every railing to the exact dimensions of your stairs, porch, or landing.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Code-checked before fabrication.</strong> Height and baluster spacing are confirmed for your property type before we cut steel, not after installation.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('hard-hat', 22); ?><span><strong>Fabricated and installed by one crew.</strong> We weld it in our shop and install it on-site, so fit and finish are our responsibility start to finish.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Built to code height.</strong> Every stair rail, ramp rail, and guardrail is fabricated to the code-compliant heights your San Antonio project requires, so it passes inspection and does its job in a fall.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>Welded and mounted solid.</strong> Posts, rails, and pickets are welded by certified welders and anchored to hold a hard push &mdash; no wobble, no rattling fasteners working loose over time.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Measured and installed locally.</strong> We measure on site, fabricate on Gardner Rd, and install across San Antonio and Bexar County, so heights and anchors are right the first time.</span></li>
         </ul>
       </div>
     </div>
@@ -214,61 +215,61 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================ PROCESS ============================ -->
-<section class="section section--light" aria-label="Our handrail and railing process">
+<section class="section section--light" aria-label="Our railing fabrication process">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">How It Works</span>
-      <h2>How does AGA build a <span class="text-accent">custom railing</span>?</h2>
+      <h2>How does AGA <span class="text-accent">build and install a railing</span>?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication follows a four-step process on every railing project in San Antonio: measure and design, confirm code and material, weld and finish, then install and secure. Each step is confirmed with you before moving to the next.</p>
+    <p class="answer-block">AGA Welding &amp; Fabrication follows four steps on every railing in San Antonio: measure and confirm code, fabricate the rail in the shop, weld and finish the steel, then install and anchor on site. We confirm heights and mounting with you up front so the finished railing is solid, safe, and inspection-ready.</p>
 
     <ol class="process-steps reveal-up" style="margin-top:1.5rem;">
       <li>
-        <b>Measure &amp; design</b>
-        <span>We measure your stairs, porch, or landing on-site and design the railing to fit the exact dimensions and style.</span>
+        <b>Measure &amp; confirm code</b>
+        <span>We measure the stair, ramp, or opening on site and confirm the code-compliant height and mounting your San Antonio project requires.</span>
       </li>
       <li>
-        <b>Confirm code &amp; material</b>
-        <span>We check height and baluster spacing against code for your property type and select steel or aluminum for the finish you want.</span>
+        <b>Fabricate the rail</b>
+        <span>We cut posts, rails, and pickets to size and fit the railing in the shop so it matches the exact rise, run, and layout.</span>
       </li>
       <li>
-        <b>Weld &amp; finish</b>
-        <span>Certified welders fabricate the rail, posts, and balusters in-house, then grind and finish for a clean, paint-ready surface.</span>
+        <b>Weld &amp; finish the steel</b>
+        <span>Certified welders join every connection with MIG, TIG, stick, or flux-cored welds, then grind the joints smooth and prep for coating.</span>
       </li>
       <li>
-        <b>Install &amp; secure</b>
-        <span>We install the finished railing on-site and secure it to the structure, leaving it inspection-ready before we leave.</span>
+        <b>Install &amp; anchor on site</b>
+        <span>We set the railing, anchor the posts solid, and confirm it holds a firm push before we leave your San Antonio property.</span>
       </li>
     </ol>
   </div>
 </section>
 
 <!-- ============================ COMPARISON ============================ -->
-<section class="section" aria-label="AGA compared to prefab railing options">
+<section class="section" aria-label="AGA compared to railing kits">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">The Difference</span>
-      <h2>Why choose custom over a <span class="text-accent">prefab railing kit</span>?</h2>
+      <h2>What sets AGA&rsquo;s <span class="text-accent">railings</span> apart in San Antonio?</h2>
     </div>
-    <p class="answer-block">A prefab kit is built for an average staircase, not yours. AGA Welding &amp; Fabrication welds each railing to your property's actual measurements, so San Antonio customers get a rail that fits the first time and meets code without field-cutting a kit to make it work.</p>
+    <p class="answer-block">The difference is welded strength and a proper fit. AGA Welding &amp; Fabrication fabricates each railing to your measurements and welds it solid, while bolt-together kits and big-box rails come in fixed sizes, work loose over time, and rarely match a San Antonio stair or ramp exactly.</p>
 
     <div class="grid-2" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1.5rem;">
       <div class="card card-tint-3 reveal-left">
         <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('badge-check', 22); ?> AGA Welding &amp; Fabrication</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Built to your exact site measurements</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Height and spacing checked against code first</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Welded joints, not bolted kit hardware</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Fabricated and installed by the same crew</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Fabricated to your exact measurements</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Welded connections that stay tight</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Built to code-compliant heights</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Measured and installed by one local team</li>
         </ul>
       </div>
       <div class="card reveal-right">
-        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Typical prefab kit</h3>
+        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Typical alternative</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Standard lengths field-cut to fit</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Spacing may not match local code</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Bolted connections that loosen over time</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Installer separate from the manufacturer</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Fixed-size kits that rarely fit right</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Bolted joints that work loose over time</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> No guarantee of code-compliant height</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> You measure, buy, and install yourself</li>
         </ul>
       </div>
     </div>
@@ -276,13 +277,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================ RECENT WORK ============================ -->
-<section class="section section--light sp-gallery" id="recent-work" aria-label="Recent handrail and railing work">
+<section class="section section--light sp-gallery" id="recent-work" aria-label="Recent steel fabrication work from the AGA shop">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Recent Work</span>
-      <h2>What railings has AGA <span class="text-accent">fabricated recently</span>?</h2>
+      <h2>What kind of <span class="text-accent">steel work</span> comes out of the AGA shop?</h2>
     </div>
-    <p class="answer-block">Recent railing and support fabrication out of our San Antonio shop &mdash; framework, stands, and supports built ahead of installation. Every piece below was cut, welded, and finished in-house by AGA Welding &amp; Fabrication.</p>
+    <p class="answer-block">The photos below show recent fabrication from the AGA Welding &amp; Fabrication shop in San Antonio &mdash; welded steel stands, custom assemblies, and structural framing. They are not finished railings, but they show the same certified welding and clean steelwork we bring to every San Antonio handrail and guardrail.</p>
 
     <div class="sp-gallery-grid" data-p1-dynamic style="margin-top:1.5rem;">
       <?php foreach ($spGallery as $g): $gi = $g['img']; ?>
@@ -307,7 +308,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">FAQ</span>
-      <h2>Common questions about <span class="text-accent">handrails and railings in San Antonio</span></h2>
+      <h2>What do San Antonio clients ask about <span class="text-accent">handrails and railings</span>?</h2>
     </div>
     <div class="faq-grid">
       <?php foreach ($faqs as $fi => $faq): ?>
@@ -325,7 +326,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container-wide">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">More From AGA</span>
-      <h2>What other <span class="text-accent">custom metalwork</span> might your property need?</h2>
+      <h2>What related <span class="text-accent">metalwork</span> might your railing project need?</h2>
     </div>
     <div class="services-grid" style="grid-template-columns:repeat(3,1fr);">
       <?php
@@ -348,13 +349,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================ FINAL CTA ============================ -->
-<section class="cta-banner texture-grain edge-curve-top" aria-label="Request a handrail or railing estimate">
+<section class="cta-banner texture-grain edge-curve-top" aria-label="Request a handrails and railings estimate">
   <span class="grain-layer" aria-hidden="true"></span>
   <div class="container">
     <div>
       <span class="eyebrow-label">Free Estimate</span>
-      <h2>Ready for a custom railing at your San Antonio property?</h2>
-      <p>Send AGA Welding &amp; Fabrication your stair or landing details and we&rsquo;ll follow up the same day with a clear, itemized estimate. Rush service is available when your project deadline can&rsquo;t wait.</p>
+      <h2>Ready for a custom steel railing in San Antonio?</h2>
+      <p>Send AGA Welding &amp; Fabrication your stair, ramp, or balcony details and we&rsquo;ll follow up the same day to schedule a measure and a clear, itemized estimate. Every railing is welded to code and built to fit your San Antonio property.</p>
     </div>
     <div class="actions">
       <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get a free estimate</button>

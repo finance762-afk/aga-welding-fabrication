@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <img src="/assets/images/<?php echo $heroImg; ?>.jpg"
            srcset="/assets/images/<?php echo $heroImg; ?>-480.webp 480w, /assets/images/<?php echo $heroImg; ?>-960.webp 960w, /assets/images/<?php echo $heroImg; ?>-1600.webp 1600w"
            sizes="100vw"
-           alt="Welded steel storage racks fabricated by AGA Welding & Fabrication in San Antonio"
+           alt="Heavy-duty welded steel stands fabricated at the AGA Welding &amp; Fabrication shop in San Antonio, TX"
            width="1600" height="1199" loading="eager" fetchpriority="high" decoding="async">
     </picture>
   </div>
@@ -307,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">FAQ</span>
-      <h2>Common questions about <span class="text-accent">custom steel racks in San Antonio</span></h2>
+      <h2>What do clients ask about <span class="text-accent">custom steel racks in San Antonio</span>?</h2>
     </div>
     <div class="faq-grid">
       <?php foreach ($faqs as $fi => $faq): ?>

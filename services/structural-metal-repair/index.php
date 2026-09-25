@@ -15,7 +15,7 @@ $svc = null;
 foreach ($services as $s) { if ($s['slug'] === $serviceSlug) { $svc = $s; break; } }
 
 $pageTitle       = 'Structural Metal Repair San Antonio, TX | ' . $siteName;
-$pageDescription = 'Structural metal repair in San Antonio, TX. AGA Welding & Fabrication repairs cracked beams, corroded columns and failed welds with certified procedures. Free estimates.';
+$pageDescription = 'Structural metal repair in San Antonio, TX. AGA Welding & Fabrication repairs and reinforces steel beams, columns, and load-bearing frames with certified weld procedures. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/structural-metal-repair/';
 $ogImage         = $siteUrl . '/assets/images/steel-beam-fabrication.jpg';
 
@@ -28,28 +28,28 @@ $heroPreload = [
 
 /* Recent-work photos for this service (real shop photos) */
 $spGallery = [
-    ['img' => 'structural-steel-beams',        'cap' => 'Fabricated structural steel I-beams staged for a San Antonio repair job'],
-    ['img' => 'welding-fabrication-shop',       'cap' => 'A bright arc weld reinforcing a structural member inside the AGA shop'],
-    ['img' => 'welding-steel-beam-san-antonio', 'cap' => 'A certified welder joining a structural steel beam during a repair'],
+    ['img' => 'structural-steel-beams',  'cap' => 'Structural steel beams fabricated and reinforced at the AGA San Antonio shop'],
+    ['img' => 'welding-fabrication-shop', 'cap' => 'Certified welding underway on the AGA Welding & Fabrication shop floor'],
+    ['img' => 'fabricated-steel-columns', 'cap' => 'Fabricated steel columns staged after reinforcement work'],
 ];
 
 /* FAQs — unique to structural metal repair in San Antonio */
 $faqs = [
     [
-        'q' => 'How do I know if a structural steel beam needs repair instead of replacement?',
-        'a' => 'AGA Welding & Fabrication inspects the crack, corrosion, or failed weld and checks how much of the original section is still sound. If enough base metal remains to carry the load once repaired and reinforced, repair is faster and less costly than replacement; if corrosion has eaten through the section, we will tell you honestly and price a replacement instead.',
+        'q' => 'How much does structural metal repair cost in San Antonio?',
+        'a' => 'Structural repair pricing depends on access, the amount of steel to remove and replace, and whether shoring is needed. AGA Welding & Fabrication inspects the member first, then gives a clear, itemized estimate before any work begins, so San Antonio clients know the cost of restoring capacity up front.',
     ],
     [
-        'q' => 'Can a cracked or corroded structural column be repaired without shutting down my San Antonio site?',
-        'a' => 'Often, yes. AGA Welding & Fabrication can sequence structural repairs around your operating hours and, where the member allows it, temporarily shore the load so work continues on one column or beam while the rest of the structure stays in service. We confirm shoring and sequencing with you before work starts.',
+        'q' => 'How long does a structural steel repair take?',
+        'a' => 'Most localized repairs — a cracked weld, a reinforced connection, a spliced column — are completed by AGA Welding & Fabrication in a day or two, while larger reinforcement projects run longer. We set a realistic schedule at inspection and offer mobile welding to keep San Antonio downtime short.',
     ],
     [
-        'q' => 'What causes structural steel to crack or corrode in the first place?',
-        'a' => 'Fatigue from repeated loading, a weld that was undersized for the stress it carries, standing moisture at a base plate, or an impact from equipment are the most common causes AGA Welding & Fabrication sees on San Antonio structures. We identify the root cause during inspection so the repair does not fail again from the same condition.',
+        'q' => 'Do you repair to engineered specifications and pass inspection?',
+        'a' => 'Yes. AGA Welding & Fabrication repairs structural steel to the load path and, when your San Antonio project requires it, works from an engineer\'s repair details or drawings. Our certified weld procedures and finished joints are prepared to meet inspection so the restored member returns to its rated capacity.',
     ],
     [
-        'q' => 'How long does a structural metal repair take?',
-        'a' => 'A single cracked weld or localized corrosion repair can often be completed in a day; a multi-column reinforcement package takes longer depending on shoring and access. AGA Welding & Fabrication gives you a firm timeline after the on-site inspection, before any cutting or welding begins.',
+        'q' => 'Can you reinforce structural steel without shutting down our facility?',
+        'a' => 'Often, yes. AGA Welding & Fabrication schedules mobile structural repairs and reinforcement around your operations in San Antonio, using staged shoring and section-by-section welding so load-bearing members are restored while the rest of the facility keeps running. We plan the sequence with you before work starts.',
     ],
 ];
 
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <img src="/assets/images/<?php echo $heroImg; ?>.jpg"
            srcset="/assets/images/<?php echo $heroImg; ?>-480.webp 480w, /assets/images/<?php echo $heroImg; ?>-960.webp 960w, /assets/images/<?php echo $heroImg; ?>-1600.webp 1600w"
            sizes="100vw"
-           alt="Welder fabricating a long structural steel beam at the AGA Welding & Fabrication shop in San Antonio, TX"
+           alt="Certified welder fabricating and reinforcing a structural steel beam at the AGA Welding & Fabrication shop in San Antonio, TX"
            width="1600" height="1199" loading="eager" fetchpriority="high" decoding="async">
     </picture>
   </div>
@@ -93,8 +93,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <div class="hero-text">
         <span class="eyebrow">Structural Metal Repair &middot; San Antonio, TX</span>
-        <h1 class="hero-title">Structural Metal Repair in <span class="text-accent">San Antonio</span> Done Right</h1>
-        <p class="hero-answer">AGA Welding &amp; Fabrication repairs cracked beams, corroded columns, and failed welds in load-bearing structural steel &mdash; using certified procedures so the repaired member is safe, code-ready, and built to last in San Antonio&rsquo;s heat and humidity.</p>
+        <h1 class="hero-title">Structural Metal Repair in <span class="text-accent">San Antonio</span> That Holds</h1>
+        <p class="hero-answer">AGA Welding &amp; Fabrication repairs and reinforces structural steel across San Antonio &mdash; beams, columns, frames, connections, and load-bearing members. Our certified welders restore strength and safety with proven weld procedures, so damaged or overloaded structures stay in service instead of coming down for a full rebuild.</p>
 
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get my free estimate</button>
@@ -102,8 +102,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         </div>
 
         <ul class="hero-chips">
-          <li><?php echo icon('shield-check', 18); ?> Licensed &amp; insured</li>
-          <li><?php echo icon('hard-hat', 18); ?> Load-bearing repair specialists</li>
+          <li><?php echo icon('shield-check', 18); ?> Family-run since 1983</li>
+          <li><?php echo icon('layers', 18); ?> Repair &amp; reinforcement</li>
           <li><?php echo icon('badge-check', 18); ?> Certified welders</li>
         </ul>
       </div>
@@ -150,44 +150,44 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">What We Do</span>
-      <h2>What does <span class="text-accent">structural metal repair in San Antonio</span> actually involve?</h2>
+      <h2>What does <span class="text-accent">structural metal repair in San Antonio</span> involve?</h2>
     </div>
-    <p class="answer-block">Structural metal repair restores a load-bearing steel member &mdash; a beam, column, or connection &mdash; back to safe, code-compliant condition after cracking, corrosion, or a failed weld. AGA Welding &amp; Fabrication inspects the damage on-site, engineers a repair sequence, and reinforces or replaces the affected section without compromising what is above or below it.</p>
+    <p class="answer-block">Structural metal repair restores the strength of load-bearing steel &mdash; beams, columns, base plates, and connections &mdash; without replacing the whole assembly. AGA Welding &amp; Fabrication inspects the damage, cuts out compromised sections, and rewelds or reinforces with certified procedures, bringing San Antonio structures back to their rated capacity and keeping them safely in service.</p>
 
     <div class="grid-asymmetric" style="margin-top:2rem; display:grid; gap:2rem;">
       <div class="prose reveal-up">
-        <p>Structural steel does not fail all at once &mdash; it usually shows warning signs first: a hairline crack near a connection, rust bleeding through paint at a base plate, or a weld that has started to separate under repeated loading. AGA Welding &amp; Fabrication has spent 43 years reading those signs for San Antonio property owners, contractors, and plant managers, and knowing the difference between a cosmetic issue and a load-carrying problem.</p>
-        <p>Once we confirm the extent of the damage, our certified welders remove the compromised material, prep the surrounding steel, and rebuild the section using the correct process for the metal and the load &mdash; MIG, TIG, stick, or flux-cored. Where the original design was undersized for its actual load, we reinforce with additional plate or gusseting rather than simply re-welding the same failure point.</p>
-        <p>Every repair happens under one roof at 8249 Gardner Rd, or on-site with our mobile welding rigs when the member cannot be removed from your San Antonio building or plant. Either way, the finished repair is ground, inspected, and documented before we call the job done.</p>
+        <p>For more than four decades, AGA Welding &amp; Fabrication has kept San Antonio&rsquo;s structural steel standing &mdash; repairing cracked welds, corroded columns, sagging beams, and failed connections on buildings, mezzanines, canopies, and industrial frames. We start with a hands-on assessment to find why the steel failed, because a repair that ignores the cause simply fails again.</p>
+        <p>Our certified welders match the repair procedure to the base metal and the load path, using MIG, TIG, stick, and flux-cored processes to lay sound, full-strength joints. Where a member has lost section to rust or impact, we splice in new steel, add gussets or stiffeners, and reinforce connections so the structure carries its design load again.</p>
+        <p>Much of this work cannot leave the site, so AGA brings mobile welding to San Antonio job sites and facilities &mdash; shoring, cutting, and rewelding in place to limit downtime. When a piece is better handled in the shop on Gardner Rd, we fabricate the replacement section to spec and set it with minimal disruption.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============================ PROBLEM / SIGNS (bento) ============================ -->
-<section class="section section--light" aria-label="Signs you need structural metal repair">
+<section class="section section--light" aria-label="When structural steel needs repair">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Know the Signs</span>
-      <h2>What are the warning signs a <span class="text-accent">structural member needs repair</span>?</h2>
+      <h2>When does structural steel need <span class="text-accent">repair instead of replacement</span>?</h2>
     </div>
-    <p class="answer-block">Structural steel gives warning before it fails outright. AGA Welding &amp; Fabrication urges San Antonio property owners and contractors to call as soon as any of these three signs appear, rather than waiting for the problem to spread.</p>
+    <p class="answer-block">Structural steel needs repair when the damage is localized &mdash; a cracked weld, a corroded base, an impacted column &mdash; and the surrounding member is still sound. AGA Welding &amp; Fabrication evaluates each case in San Antonio and reinforces or splices rather than rebuilds whenever a certified repair can safely restore the structure&rsquo;s rated load.</p>
 
     <div class="grid-3" style="display:grid; gap:1rem; grid-template-columns:repeat(3,1fr); margin-top:1.5rem;">
       <div class="card reveal-up">
-        <div class="service-card__icon"><?php echo icon('hammer', 22); ?></div>
-        <h3>A visible crack at a weld or connection</h3>
-        <p>Cracking at a joint means the connection is carrying stress it was not designed for &mdash; it will not heal on its own and tends to spread.</p>
+        <div class="service-card__icon"><?php echo icon('ruler', 22); ?></div>
+        <h3>Cracks at welds or connections</h3>
+        <p>Visible cracking around joints, base plates, or bolted connections signals a repair before the load path fails.</p>
       </div>
       <div class="card reveal-up reveal-delay-1">
-        <div class="service-card__icon"><?php echo icon('shield-check', 22); ?></div>
-        <h3>Rust bleeding through at the base</h3>
-        <p>Corrosion at a base plate or column foot eats away load-bearing section thickness long before it looks serious from a distance.</p>
+        <div class="service-card__icon"><?php echo icon('layers', 22); ?></div>
+        <h3>Rust has eaten into the steel</h3>
+        <p>Corrosion that has thinned a column, beam, or base plate reduces capacity and needs reinforcement, not paint.</p>
       </div>
       <div class="card reveal-up reveal-delay-2">
-        <div class="service-card__icon"><?php echo icon('ruler', 22); ?></div>
-        <h3>Noticeable sag, sway, or deflection</h3>
-        <p>A beam that has started to sag or a frame that sways under normal use is telling you the steel is no longer performing as designed.</p>
+        <div class="service-card__icon"><?php echo icon('hammer', 22); ?></div>
+        <h3>Impact or overload damage</h3>
+        <p>A forklift strike, settling, or added load can bend or crack a member that must be restored to spec.</p>
       </div>
     </div>
   </div>
@@ -199,14 +199,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="split" style="display:grid; grid-template-columns:1fr 1fr; gap:clamp(2rem,5vw,4rem); align-items:center;">
       <div class="reveal-left">
         <span class="big-number">43</span>
-        <p class="lead" style="margin-top:.5rem;">years repairing structural steel in San Antonio &mdash; a family-run shop that has kept local buildings and plants standing safely since 1983.</p>
+        <p class="lead" style="margin-top:.5rem;">years repairing and reinforcing structural steel in San Antonio &mdash; a family-run shop working for local contractors and property owners since 1983.</p>
       </div>
       <div class="reveal-right">
-        <h2 style="margin-bottom:1rem;">Why does San Antonio trust AGA for <span class="text-accent">structural metal repair</span>?</h2>
+        <h2 style="margin-bottom:1rem;">Why do San Antonio builders trust AGA with <span class="text-accent">structural repairs</span>?</h2>
+        <p class="answer-block">San Antonio contractors, plant managers, and building owners trust AGA Welding &amp; Fabrication because structural repairs demand certified welds and sound judgment. Family-run since 1983, our welders diagnose the failure, repair to the load path, and stand behind joints that have to hold &mdash; on site or in the Gardner Rd shop.</p>
         <ul class="service-card-with-image" style="list-style:none; padding:0; margin:0; display:grid; gap:.9rem;">
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('hard-hat', 22); ?><span><strong>We diagnose the cause, not just the symptom.</strong> AGA Welding &amp; Fabrication traces cracking and corrosion back to what caused it, so the repair does not fail again from the same condition.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified welders on every load-bearing joint.</strong> Structural repairs are laid by certified welders using the procedure matched to the metal and the load &mdash; never a quick patch weld.</span></li>
-          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Shop or mobile, your choice.</strong> We repair in our San Antonio shop or bring mobile welding rigs to your site when the member cannot be moved.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('badge-check', 22); ?><span><strong>Certified structural welds.</strong> Every load-bearing joint is repaired by a certified welder using a procedure matched to the steel and the load &mdash; the welds that hold a structure up are not guesswork.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('layers', 22); ?><span><strong>Diagnosis before repair.</strong> We find why the member failed &mdash; corrosion, fatigue, impact, or overload &mdash; so the fix addresses the cause and the steel does not fail in the same spot again.</span></li>
+          <li style="display:flex; gap:.7rem; align-items:flex-start;"><?php echo icon('truck', 22); ?><span><strong>Mobile or in-shop.</strong> We repair structural steel on your San Antonio site to limit downtime, or fabricate and set replacement sections from the Gardner Rd shop when that is the safer path.</span></li>
         </ul>
       </div>
     </div>
@@ -218,57 +219,57 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">How It Works</span>
-      <h2>How does AGA <span class="text-accent">repair a structural member</span> safely?</h2>
+      <h2>How does AGA approach a <span class="text-accent">structural metal repair</span>?</h2>
     </div>
-    <p class="answer-block">AGA Welding &amp; Fabrication follows a four-step process on every structural repair in San Antonio: inspect and diagnose, plan the repair sequence, cut and reinforce, then weld and verify. The sequence protects the surrounding structure while the damaged section is rebuilt.</p>
+    <p class="answer-block">AGA Welding &amp; Fabrication follows four steps on every structural repair in San Antonio: inspect and diagnose, plan the repair and shoring, cut and reweld to the load path, then finish and verify. Each stage is confirmed with you so the restored steel carries its rated load and stays inspection-ready.</p>
 
     <ol class="process-steps reveal-up" style="margin-top:1.5rem;">
       <li>
         <b>Inspect &amp; diagnose</b>
-        <span>We examine the crack, corrosion, or failed weld on-site and identify the root cause before proposing a fix.</span>
+        <span>We assess the damaged member on site, identify why it failed, and confirm whether a repair or a replacement section is the safe call.</span>
       </li>
       <li>
-        <b>Plan the repair sequence</b>
-        <span>We determine whether shoring is needed, what stays in service, and confirm the plan with you before any steel is cut.</span>
+        <b>Plan the repair &amp; shoring</b>
+        <span>We plan the sequence, temporary support, and weld procedure so the structure stays stable while the load-bearing steel is worked.</span>
       </li>
       <li>
-        <b>Cut &amp; reinforce</b>
-        <span>Compromised material is removed and the section is reinforced with matched steel, plate, or gusseting as the repair requires.</span>
+        <b>Cut &amp; reweld to the load path</b>
+        <span>Certified welders remove compromised metal and reweld, splice, or reinforce with MIG, TIG, stick, or flux-cored procedures matched to the load.</span>
       </li>
       <li>
-        <b>Weld &amp; verify</b>
-        <span>Certified welders rebuild the joint, grind and inspect the finished weld, and confirm the repaired member is ready to carry load.</span>
+        <b>Finish &amp; verify</b>
+        <span>We grind, prep for coating, and confirm the repaired member is back to its rated capacity before we leave your San Antonio site.</span>
       </li>
     </ol>
   </div>
 </section>
 
 <!-- ============================ COMPARISON ============================ -->
-<section class="section" aria-label="AGA compared to other structural repair options">
+<section class="section" aria-label="AGA compared to other repair outfits">
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">The Difference</span>
-      <h2>Why not just have a <span class="text-accent">handyman patch the weld</span>?</h2>
+      <h2>What makes AGA&rsquo;s <span class="text-accent">structural repairs</span> different in San Antonio?</h2>
     </div>
-    <p class="answer-block">A patch weld can hide a crack without fixing why it happened. AGA Welding &amp; Fabrication diagnoses the underlying cause and reinforces the member with certified welders, so San Antonio property owners get a repair that holds instead of a cosmetic fix that fails again.</p>
+    <p class="answer-block">The difference is diagnosis and certified welds. AGA Welding &amp; Fabrication finds the root cause and repairs to the load path with in-house certified welders, while quick-fix outfits often patch the symptom, subcontract the welding, and leave the same weakness ready to fail again on your San Antonio structure.</p>
 
     <div class="grid-2" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1.5rem;">
       <div class="card card-tint-3 reveal-left">
         <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('badge-check', 22); ?> AGA Welding &amp; Fabrication</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Root-cause diagnosis before any weld is laid</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Certified welders on every structural joint</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Reinforcement, not just a patch over the crack</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Shop or mobile repair across San Antonio</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Certified welders repair every load-bearing joint</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Root-cause diagnosis before any steel is cut</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Mobile on-site repair to limit downtime</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('check', 18); ?> Repaired steel verified to its rated load</li>
         </ul>
       </div>
       <div class="card reveal-right">
-        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Typical patch-weld approach</h3>
+        <h3 style="display:flex; align-items:center; gap:.5rem;"><?php echo icon('info', 22); ?> Typical alternative</h3>
         <ul style="list-style:none; padding:0; margin:.75rem 0 0; display:grid; gap:.6rem;">
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Crack re-welded without finding the cause</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> No verification the load path was restored</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Corrosion left untreated beneath the patch</li>
-          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Failure recurs at the same connection</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Symptoms patched without finding the cause</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Structural welds subcontracted out of house</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> Repairs that fail again in the same spot</li>
+          <li style="display:flex; gap:.5rem;"><?php echo icon('minus', 18); ?> No verification that capacity was restored</li>
         </ul>
       </div>
     </div>
@@ -280,9 +281,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">Recent Work</span>
-      <h2>What structural repairs has AGA <span class="text-accent">completed recently</span>?</h2>
+      <h2>What structural repairs has AGA <span class="text-accent">handled recently</span>?</h2>
     </div>
-    <p class="answer-block">Recent structural repair and reinforcement work out of our San Antonio shop and on-site at client buildings and plants. Every joint below was cut, welded, and verified in-house or in the field by AGA Welding &amp; Fabrication.</p>
+    <p class="answer-block">Recent structural steel work from AGA Welding &amp; Fabrication in San Antonio &mdash; fabricated and reinforced beams, certified welding on the shop floor, and rebuilt columns staged for install. Every piece below was cut, welded, and reinforced in-house by our certified welders on Gardner Rd.</p>
 
     <div class="sp-gallery-grid" data-p1-dynamic style="margin-top:1.5rem;">
       <?php foreach ($spGallery as $g): $gi = $g['img']; ?>
@@ -307,7 +308,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">FAQ</span>
-      <h2>Common questions about <span class="text-accent">structural metal repair in San Antonio</span></h2>
+      <h2>What do San Antonio clients ask about <span class="text-accent">structural metal repair</span>?</h2>
     </div>
     <div class="faq-grid">
       <?php foreach ($faqs as $fi => $faq): ?>
@@ -325,7 +326,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container-wide">
     <div class="section-head reveal-up">
       <span class="eyebrow-label">More From AGA</span>
-      <h2>What other <span class="text-accent">repair services</span> might your project need?</h2>
+      <h2>What related <span class="text-accent">metal services</span> might your structural project need?</h2>
     </div>
     <div class="services-grid" style="grid-template-columns:repeat(3,1fr);">
       <?php
@@ -353,8 +354,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div>
       <span class="eyebrow-label">Free Estimate</span>
-      <h2>Ready to have a structural member repaired in San Antonio?</h2>
-      <p>Send AGA Welding &amp; Fabrication photos or details of the crack, corrosion, or weld failure and we&rsquo;ll follow up the same day with a clear, itemized estimate. Rush inspection is available for safety concerns.</p>
+      <h2>Ready to repair your structural steel in San Antonio?</h2>
+      <p>Send AGA Welding &amp; Fabrication the details or photos of your damaged steel and we&rsquo;ll follow up the same day to schedule an inspection and a clear, itemized estimate. Mobile welding is available to keep your San Antonio project moving.</p>
     </div>
     <div class="actions">
       <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get a free estimate</button>
