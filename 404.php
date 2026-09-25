@@ -4,13 +4,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 /* ---------------------------------------------------------------------------
- * 404 Error Page — AGA Welding & Fabrication
+ * 404 Error Page — AGA Welding & Fabrication (Phase 5)
  * ------------------------------------------------------------------------- */
+http_response_code(404);
+
+$pageType        = 'other';
+$currentPage     = '';
+$noindex         = true;  // Do not index 404 pages
+
 $pageTitle       = 'Page Not Found | ' . $siteName;
 $pageDescription = 'The page you are looking for could not be found. Browse our welding and metal fabrication services or contact us for help.';
-$canonicalUrl    = $siteUrl . '/404';
-$currentPage     = '404';
-$noindex         = true; // Do not index 404 page
+$canonicalUrl    = $siteUrl . '/404/';
+$ogImage         = $siteUrl . '/assets/images/logo.png';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

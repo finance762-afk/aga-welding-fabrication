@@ -4,13 +4,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 /* ---------------------------------------------------------------------------
- * Thank You Page — AGA Welding & Fabrication
+ * Thank You Page — AGA Welding & Fabrication (Phase 5)
  * ------------------------------------------------------------------------- */
+$pageType        = 'other';
+$currentPage     = '';
+$noindex         = true;  // Do not index thank-you pages
+
 $pageTitle       = 'Thank You | ' . $siteName;
 $pageDescription = 'Thank you for contacting AGA Welding & Fabrication. We will respond to your inquiry within 1 business day.';
-$canonicalUrl    = $siteUrl . '/thank-you';
-$currentPage     = 'thank-you';
-$noindex         = true; // Do not index thank-you page
+$canonicalUrl    = $siteUrl . '/thank-you/';
+$ogImage         = $siteUrl . '/assets/images/logo.png';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';

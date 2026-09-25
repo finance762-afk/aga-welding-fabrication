@@ -329,21 +329,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <h2>What other <span class="text-accent">fabrication services</span> might your project need?</h2>
     </div>
     <div class="services-grid" style="grid-template-columns:repeat(3,1fr);">
-      <?php
-      $rTint = 1;
-      foreach ($relatedSlugs as $rslug):
-          $rsvc = null;
-          foreach ($services as $s) { if ($s['slug'] === $rslug) { $rsvc = $s; break; } }
-          if (!$rsvc) continue;
-      ?>
-      <article class="service-card-with-image card-tint-<?php echo $rTint; ?> reveal-up reveal-delay-<?php echo $rTint; ?>">
-        <div class="service-card__body">
-          <h3><?php echo htmlspecialchars($rsvc['name']); ?></h3>
-          <p class="service-card__desc"><?php echo htmlspecialchars($rsvc['description']); ?></p>
-          <a href="/services/<?php echo $rsvc['slug']; ?>/" class="service-card__cta">Learn more</a>
-        </div>
-      </article>
-      <?php $rTint++; endforeach; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/related-services.php'; ?>
     </div>
   </div>
 </section>

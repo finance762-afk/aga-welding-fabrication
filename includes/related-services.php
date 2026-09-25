@@ -30,6 +30,25 @@ $relatedImageMap = [
     'additional-services'           => 'welding-steel-beam-san-antonio',
 ];
 
+$relatedIconMap = [
+    'steel-fabrication'             => 'layers',
+    'structural-steel-fabrication'  => 'building-2',
+    'sheet-metal-fabrication'       => 'ruler',
+    'metal-cutting'                 => 'scissors',
+    'metal-bending'                 => 'wrench',
+    'metal-assembly'                => 'hammer',
+    'metal-repair'                  => 'flame',
+    'structural-metal-repair'       => 'shield-check',
+    'equipment-metal-repair'        => 'truck',
+    'handrails-railings'            => 'route',
+    'staircases'                    => 'milestone',
+    'awnings'                       => 'home',
+    'racks-storage-solutions'       => 'clipboard-list',
+    'custom-metalwork'              => 'pen-tool',
+    'general-repairs-modifications' => 'wrench',
+    'additional-services'           => 'flame',
+];
+
 $relatedAltMap = [
     'structural-steel-beams'         => 'Fabricated structural steel I-beams at the AGA shop in San Antonio',
     'steel-beam-fabrication'         => 'Structural steel beams being fabricated at AGA Welding & Fabrication',
@@ -47,8 +66,9 @@ foreach ($relatedSlugs as $relSlug):
     $relSvc = null;
     foreach ($services as $relS) { if ($relS['slug'] === $relSlug) { $relSvc = $relS; break; } }
     if (!$relSvc) continue;
-    $relImg = $relatedImageMap[$relSlug] ?? 'custom-steel-fabrication';
-    $relAlt = $relatedAltMap[$relImg] ?? ('Steel fabrication by AGA Welding & Fabrication in San Antonio');
+    $relImg  = $relatedImageMap[$relSlug] ?? 'custom-steel-fabrication';
+    $relAlt  = $relatedAltMap[$relImg] ?? ('Steel fabrication by AGA Welding & Fabrication in San Antonio');
+    $relIcon = $relatedIconMap[$relSlug] ?? 'flame';
 ?>
 <article class="service-card-with-image card-tint-<?php echo $relTint; ?> reveal-up reveal-delay-<?php echo $relTint; ?>">
   <div class="service-card__image">
@@ -62,6 +82,7 @@ foreach ($relatedSlugs as $relSlug):
     </picture>
   </div>
   <div class="service-card__body">
+    <div class="service-card__icon"><?php echo icon($relIcon, 22); ?></div>
     <h3><?php echo htmlspecialchars($relSvc['name']); ?></h3>
     <p class="service-card__desc"><?php echo htmlspecialchars($relSvc['description']); ?></p>
     <a href="/services/<?php echo $relSvc['slug']; ?>/" class="service-card__cta">Learn more</a>
