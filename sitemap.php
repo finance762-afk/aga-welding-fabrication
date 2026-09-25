@@ -39,6 +39,17 @@ foreach ($services as $svc) {
     ];
 }
 
+// Add service areas (Premium tier)
+$pages[] = ['loc' => '/service-areas/', 'lastmod' => '2026-09-25', 'changefreq' => 'monthly', 'priority' => '0.8'];
+foreach ($serviceAreas as $area) {
+    $pages[] = [
+        'loc' => '/service-areas/' . $area['slug'] . '/',
+        'lastmod' => '2026-09-25',
+        'changefreq' => 'monthly',
+        'priority' => '0.7'
+    ];
+}
+
 // Add blog if it exists
 if ($hasBlog) {
     $pages[] = ['loc' => '/blog/', 'lastmod' => $currentDate, 'changefreq' => 'weekly', 'priority' => '0.7'];

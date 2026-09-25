@@ -1,6 +1,7 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
 ?>
 <?php
 /* ---------------------------------------------------------------------------
@@ -391,6 +392,58 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       </details>
       <?php endforeach; ?>
     </div>
+  </div>
+</section>
+
+<!-- ============================ FROM THE BLOG ============================ -->
+<section class="section bg-alt">
+  <div class="container">
+
+    <div class="section-head center reveal-up">
+      <span class="eyebrow-label">From the Blog</span>
+      <h2>Industry <span class="text-accent">Insights</span></h2>
+      <p>Expert guidance on metal fabrication, welding techniques, and project planning from <?php echo $yearsInBusiness; ?> years of hands-on experience.</p>
+    </div>
+
+    <?php if (!empty($blogPosts)): ?>
+    <div class="blog-preview-grid">
+
+      <!-- Featured post (first in registry) -->
+      <?php $featured = $blogPosts[0]; ?>
+      <article class="blog-featured-card reveal-up reveal-delay-1">
+        <a href="/blog/<?php echo $featured['slug']; ?>/" class="blog-featured-card__image-link">
+          <picture class="blog-featured-card__image">
+            <img src="<?php echo htmlspecialchars($featured['image']); ?>"
+                 alt="<?php echo htmlspecialchars($featured['alt']); ?>"
+                 width="960" height="540" loading="lazy">
+          </picture>
+        </a>
+        <div class="blog-featured-card__content">
+          <div class="blog-card__meta">
+            <span class="blog-category"><?php echo htmlspecialchars($featured['category']); ?></span>
+            <span class="blog-meta-sep">•</span>
+            <time datetime="<?php echo $featured['dateISO']; ?>"><?php echo $featured['date']; ?></time>
+            <span class="blog-meta-sep">•</span>
+            <span><?php echo $featured['readtime']; ?></span>
+          </div>
+          <h3 class="blog-featured-card__title">
+            <a href="/blog/<?php echo $featured['slug']; ?>/"><?php echo htmlspecialchars($featured['title']); ?></a>
+          </h3>
+          <p class="blog-featured-card__excerpt"><?php echo htmlspecialchars($featured['excerpt']); ?></p>
+          <a href="/blog/<?php echo $featured['slug']; ?>/" class="blog-card__link">
+            Read Article
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="center reveal-up reveal-delay-2" style="margin-top:2.5rem;">
+      <a href="/blog/" class="btn btn-secondary">View All Articles</a>
+    </div>
+    <?php endif; ?>
+
   </div>
 </section>
 

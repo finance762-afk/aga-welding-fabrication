@@ -164,10 +164,17 @@ $services = [
 ];
 
 /* ---------------------------------------------------------------------------
- * Service areas
+ * Service areas (Premium tier — full area pages, alphabetical order)
  * ------------------------------------------------------------------------- */
 $serviceAreas = [
-    'San Antonio',
+    ['name' => 'San Antonio',    'slug' => 'san-antonio',    'zip' => '78263', 'county' => 'Bexar',  'primary' => true],
+    ['name' => 'Boerne',         'slug' => 'boerne',         'zip' => '78006', 'county' => 'Kendall', 'primary' => false],
+    ['name' => 'Converse',       'slug' => 'converse',       'zip' => '78109', 'county' => 'Bexar',  'primary' => false],
+    ['name' => 'Live Oak',       'slug' => 'live-oak',       'zip' => '78233', 'county' => 'Bexar',  'primary' => false],
+    ['name' => 'New Braunfels',  'slug' => 'new-braunfels',  'zip' => '78130', 'county' => 'Comal',  'primary' => false],
+    ['name' => 'Schertz',        'slug' => 'schertz',        'zip' => '78154', 'county' => 'Bexar',  'primary' => false],
+    ['name' => 'Seguin',         'slug' => 'seguin',         'zip' => '78155', 'county' => 'Guadalupe', 'primary' => false],
+    ['name' => 'Universal City', 'slug' => 'universal-city', 'zip' => '78148', 'county' => 'Bexar',  'primary' => false],
 ];
 
 /* ---------------------------------------------------------------------------
