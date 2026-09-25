@@ -356,7 +356,12 @@
     }
   },
   "design": {
-    "fonts": {},
+    "archetype": "bold-industrial",
+    "fonts": {
+      "heading": "Bricolage Grotesque",
+      "body": "Figtree",
+      "accent": "Barlow Condensed"
+    },
     "notes": "",
     "style": "modern",
     "colors": {
@@ -365,7 +370,13 @@
       "secondary": "#66717A",
       "extracted_from_logo": false
     },
-    "logo_analysis": {}
+    "logo_analysis": {
+      "aspect_ratio": 1.84,
+      "width": 210,
+      "height": 114,
+      "has_transparency": true,
+      "nav_size": "104px"
+    }
   },
   "domain": "aga-welding-fabrication",
   "phases": [
