@@ -11,12 +11,12 @@
   "grade": "F",
   "score_pct": 96,
   "summary": {
-    "total": 298,
+    "total": 301,
     "passed": 271,
-    "failed": 20,
+    "failed": 23,
     "warn": 7,
     "blockers_failed": 1,
-    "warnings_failed": 21
+    "warnings_failed": 24
   },
   "techniques_detected": [
     {
@@ -2241,6 +2241,17 @@
     {
       "status": "fail",
       "check": "Image resolution",
+      "detail": "metal-cutting-bandsaw-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/metal-cutting-bandsaw-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
       "detail": "favicon-32x32.png is 32x32, recommend at least 800x500 for section",
       "file": "assets/images/favicon-32x32.png",
       "severity": "warning",
@@ -2309,6 +2320,28 @@
       "check": "Image resolution",
       "detail": "steel-beam-fabrication-480.webp is 480x360, recommend at least 800x500 for section",
       "file": "assets/images/steel-beam-fabrication-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
+      "detail": "aga-welding-fabrication-shop-original-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/aga-welding-fabrication-shop-original-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
+      "detail": "aga-welding-fabrication-shop-new-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/aga-welding-fabrication-shop-new-480.webp",
       "severity": "warning",
       "expected": null,
       "actual": null,
@@ -3143,7 +3176,7 @@
     {
       "status": "fail",
       "check": "Hero image \u2264150KB",
-      "detail": "structural-steel-beams.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
+      "detail": "structural-steel-beams-original.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -3264,7 +3297,7 @@
     {
       "status": "pass",
       "check": "Homepage image payload \u2264600KB (static estimate)",
-      "detail": "~53KB eager at 960w candidates (+147KB lazy, loaded on scroll)",
+      "detail": "~53KB eager at 960w candidates (+133KB lazy, loaded on scroll)",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -3275,7 +3308,7 @@
     {
       "status": "pass",
       "check": "Total page weight \u22641.5MB (static estimate)",
-      "detail": "~371KB uncompressed HTML+CSS+JS+fonts+images",
+      "detail": "~357KB uncompressed HTML+CSS+JS+fonts+images",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -3308,7 +3341,7 @@
     {
       "status": "pass",
       "check": "Lighthouse mobile Performance \u226590",
-      "detail": "94 (runs [93, 94, 95]) \u2014 LCP 2.2s \u00b7 CLS 0.108 \u00b7 TBT 23ms \u00b7 251KB",
+      "detail": "95 (runs [95, 95, 95]) \u2014 LCP 2.1s \u00b7 CLS 0.108 \u00b7 TBT 6ms \u00b7 251KB",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -3398,6 +3431,17 @@
     {
       "status": "fail",
       "check": "Image resolution",
+      "detail": "metal-cutting-bandsaw-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/metal-cutting-bandsaw-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
       "detail": "favicon-32x32.png is 32x32, recommend at least 800x500 for section",
       "file": "assets/images/favicon-32x32.png",
       "severity": "warning",
@@ -3466,6 +3510,28 @@
       "check": "Image resolution",
       "detail": "steel-beam-fabrication-480.webp is 480x360, recommend at least 800x500 for section",
       "file": "assets/images/steel-beam-fabrication-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
+      "detail": "aga-welding-fabrication-shop-original-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/aga-welding-fabrication-shop-original-480.webp",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Replace with higher-resolution version or remove from primary placement",
+      "section": "IMAGES"
+    },
+    {
+      "status": "fail",
+      "check": "Image resolution",
+      "detail": "aga-welding-fabrication-shop-new-480.webp is 480x360, recommend at least 800x500 for section",
+      "file": "assets/images/aga-welding-fabrication-shop-new-480.webp",
       "severity": "warning",
       "expected": null,
       "actual": null,
@@ -3552,7 +3618,7 @@
     {
       "status": "fail",
       "check": "Hero image \u2264150KB",
-      "detail": "structural-steel-beams.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
+      "detail": "structural-steel-beams-original.jpg: 194KB (largest image (no hero-named file); budget 150KB)",
       "file": "",
       "severity": "blocker",
       "expected": null,

@@ -403,7 +403,7 @@
     {
       "name": "seo_aeo_deploy",
       "phase": 5,
-      "status": "complete"
+      "status": "pending"
     }
   ],
   "address": {
